@@ -2,4 +2,19 @@
     <string name="app_name">Kids Pre School Learning</string>
     <string name="kids_pre_school_learning">Kids Pre-School Learning</string>
     <string name="we_improve_your_knowledge">we improve your knowledge</string>
+    <string name="DashBoard">Dashboard</string>
+    <string name="category_title">category Name</string>
+    <string name="animals_dashboard">Animals</string>
+    <string name="feedback">Feedback</string>
+    <string name="takeQuiz">Take Quiz</string>
+    <string name="habits">Habits</string>
+    <string name="islamic_months">Islamic Months</string>
+    <string name="partsofbody">Parts Of Body</string>
+    <string name="monthsNames">Months Names</string>
+    <string name="daysNames">Days Names</string>
+    <string name="shapes">Shapes</string>
+    <string name="vegetables">Vegetables</string>
+    <string name="fruits">Fruits</string>
+    <string name="maths">Mathematics</string>
+    <string name="english">English</string>
 </resources>

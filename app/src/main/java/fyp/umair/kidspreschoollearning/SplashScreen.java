@@ -5,9 +5,10 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 
+import fyp.umair.kidspreschoollearning.Dashboard.DashboardScreen;
+
 public class SplashScreen extends AppCompatActivity
 {
-
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
@@ -21,7 +22,7 @@ public class SplashScreen extends AppCompatActivity
             @Override
             public void run() {
 
-                startActivity(new Intent(getApplicationContext(), SplashScreen.class));
+                startActivity(new Intent(getApplicationContext(), DashboardScreen.class));
 
                 // close this activity
                 finish();
