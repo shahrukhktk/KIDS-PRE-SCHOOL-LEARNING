@@ -57,14 +57,16 @@
                     android:background="@android:color/transparent"
                     android:src="@drawable/img_a"
                     android:layout_gravity="center"
-                    android:layout_marginTop="20dp"/>
+                    android:layout_marginTop="20dp"
+                    android:onClick="EnglishAlphabetsFragmentsCall"/>
                 <ImageView
                     android:id="@+id/character_B_Id"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:background="@android:color/transparent"
                     android:src="@drawable/img_b"
-                    android:layout_gravity="center"/>
+                    android:layout_gravity="center"
+                    android:onClick="EnglishAlphabetsFragmentsCall"/>
                 <ImageView
                     android:id="@+id/character_C_Id"
                     android:layout_width="wrap_content"

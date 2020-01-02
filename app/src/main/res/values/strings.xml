@@ -24,4 +24,7 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="aa">Aa</string>
+    <string name="bb">Bb</string>
+    <string name="ball">Ball</string>
+    <string name="apple">Apple</string>
 </resources>

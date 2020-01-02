@@ -51,18 +51,20 @@
                     android:layout_height="match_parent"
                     android:orientation="vertical"
                     android:layout_weight="1"
-                    android:weightSum="3.5">
+                    android:weightSum="3.5"
+                    android:onClick="GoToEnglishActivity"
+                    tools:ignore="OnClick">
 
                     <ImageView
                         android:layout_width="match_parent"
                         android:layout_height="0dp"
-                        android:layout_weight="2.5"
+                        android:layout_weight="2"
                         android:src="@drawable/english_img"/>
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="0dp"
-                        android:layout_weight="1"
+                        android:layout_weight="1.5"
                         android:text="@string/english"
                         android:textAlignment="center"
                         android:textColor="@android:color/black"
@@ -87,13 +89,13 @@
                     <ImageView
                         android:layout_width="match_parent"
                         android:layout_height="0dp"
-                        android:layout_weight="2.5"
+                        android:layout_weight="2"
                         android:src="@drawable/maths"/>
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="0dp"
-                        android:layout_weight="1"
+                        android:layout_weight="1.5"
                         android:text="@string/maths"
                         android:textAlignment="center"
                         android:textColor="@android:color/black"
@@ -118,13 +120,13 @@
                     <ImageView
                         android:layout_width="match_parent"
                         android:layout_height="0dp"
-                        android:layout_weight="2.5"
+                        android:layout_weight="2"
                         android:src="@drawable/animals"/>
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="0dp"
-                        android:layout_weight="1"
+                        android:layout_weight="1.5"
                         android:text="@string/animals_dashboard"
                         android:textAlignment="center"
                         android:textColor="@android:color/black"
@@ -169,13 +171,13 @@
                     <ImageView
                         android:layout_width="match_parent"
                         android:layout_height="0dp"
-                        android:layout_weight="2.5"
+                        android:layout_weight="2"
                         android:src="@drawable/fruits"/>
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="0dp"
-                        android:layout_weight="1"
+                        android:layout_weight="1.5"
                         android:text="@string/fruits"
                         android:textAlignment="center"
                         android:textColor="@android:color/black"
@@ -200,13 +202,13 @@
                     <ImageView
                         android:layout_width="match_parent"
                         android:layout_height="0dp"
-                        android:layout_weight="2.5"
+                        android:layout_weight="2"
                         android:src="@drawable/vegetables"/>
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="0dp"
-                        android:layout_weight="1"
+                        android:layout_weight="1.5"
                         android:text="@string/vegetables"
                         android:textAlignment="center"
                         android:textColor="@android:color/black"
@@ -231,13 +233,13 @@
                     <ImageView
                         android:layout_width="match_parent"
                         android:layout_height="0dp"
-                        android:layout_weight="2.5"
+                        android:layout_weight="2"
                         android:src="@drawable/shapes"/>
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="0dp"
-                        android:layout_weight="1"
+                        android:layout_weight="1.5"
                         android:text="@string/shapes"
                         android:textAlignment="center"
                         android:textColor="@android:color/black"
@@ -282,13 +284,13 @@
                     <ImageView
                         android:layout_width="match_parent"
                         android:layout_height="0dp"
-                        android:layout_weight="2.5"
+                        android:layout_weight="2"
                         android:src="@drawable/daysnames"/>
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="0dp"
-                        android:layout_weight="1"
+                        android:layout_weight="1.5"
                         android:text="@string/daysNames"
                         android:textAlignment="center"
                         android:textColor="@android:color/black"
@@ -313,13 +315,13 @@
                     <ImageView
                         android:layout_width="match_parent"
                         android:layout_height="0dp"
-                        android:layout_weight="2.5"
+                        android:layout_weight="2"
                         android:src="@drawable/months_image"/>
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="0dp"
-                        android:layout_weight="1"
+                        android:layout_weight="1.5"
                         android:text="@string/monthsNames"
                         android:textAlignment="center"
                         android:textColor="@android:color/black"
@@ -344,13 +346,13 @@
                     <ImageView
                         android:layout_width="match_parent"
                         android:layout_height="0dp"
-                        android:layout_weight="2.5"
+                        android:layout_weight="2"
                         android:src="@drawable/partsofbody"/>
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="0dp"
-                        android:layout_weight="1"
+                        android:layout_weight="1.5"
                         android:text="@string/partsofbody"
                         android:textAlignment="center"
                         android:textColor="@android:color/black"
@@ -395,13 +397,13 @@
                     <ImageView
                         android:layout_width="match_parent"
                         android:layout_height="0dp"
-                        android:layout_weight="2.5"
+                        android:layout_weight="2"
                         android:src="@drawable/islamicnames"/>
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="0dp"
-                        android:layout_weight="1"
+                        android:layout_weight="1.5"
                         android:text="@string/islamic_months"
                         android:textAlignment="center"
                         android:textColor="@android:color/black"
@@ -426,13 +428,13 @@
                     <ImageView
                         android:layout_width="match_parent"
                         android:layout_height="0dp"
-                        android:layout_weight="2.5"
+                        android:layout_weight="2"
                         android:src="@drawable/habits"/>
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="0dp"
-                        android:layout_weight="1"
+                        android:layout_weight="1.5"
                         android:text="@string/habits"
                         android:textAlignment="center"
                         android:textColor="@android:color/black"
@@ -457,13 +459,13 @@
                     <ImageView
                         android:layout_width="match_parent"
                         android:layout_height="0dp"
-                        android:layout_weight="2.5"
+                        android:layout_weight="2"
                         android:src="@drawable/takequiz_image"/>
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="0dp"
-                        android:layout_weight="1"
+                        android:layout_weight="1.5"
                         android:text="@string/takeQuiz"
                         android:textAlignment="center"
                         android:textColor="@android:color/black"
