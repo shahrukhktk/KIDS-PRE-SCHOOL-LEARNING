@@ -11,7 +11,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="AllowBackup,GoogleAppIndexingWarning">
-        <activity android:name=".Dashboard.EnglishActivity"></activity>
+        <activity android:name=".English_Category.TraceLetters_Activity"></activity>
+        <activity android:name=".English_Category.EnglishAlphabets_Activity" />
+        <activity android:name=".English_Category.EnglishActivity" />
         <activity
             android:name=".Dashboard.DashboardScreen"
             android:screenOrientation="portrait"

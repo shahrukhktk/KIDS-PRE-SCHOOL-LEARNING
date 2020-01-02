@@ -17,4 +17,6 @@
     <string name="fruits">Fruits</string>
     <string name="maths">Mathematics</string>
     <string name="english">English</string>
+    <string name="trace_the_letters">Trace The Letters</string>
+    <string name="alphabets">Alphabets</string>
 </resources>
