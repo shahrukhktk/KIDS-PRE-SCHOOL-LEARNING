@@ -54,7 +54,6 @@ public class EnglishAlphabets_Activity extends AppCompatActivity
             FragmentTransaction ft = fm.beginTransaction();
             ft.replace(R.id.fragment_container_ID, fragment);
             ft.commit();
-            return;
         }
         else if(view == findViewById(R.id.character_B_Id))
         {

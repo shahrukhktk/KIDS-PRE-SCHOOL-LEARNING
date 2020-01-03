@@ -11,13 +11,17 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="AllowBackup,GoogleAppIndexingWarning">
-        <activity android:name=".English_Category.TraceLetters_Activity"
+        <activity android:name=".Maths_Category.MathsDashboard"></activity>
+        <activity
+            android:name=".English_Category.TraceLetters_Activity"
             android:screenOrientation="portrait"
             tools:ignore="InnerclassSeparator" />
-        <activity android:name=".English_Category.EnglishAlphabets_Activity"
+        <activity
+            android:name=".English_Category.EnglishAlphabets_Activity"
             android:screenOrientation="portrait"
             tools:ignore="InnerclassSeparator" />
-        <activity android:name=".English_Category.EnglishActivity"
+        <activity
+            android:name=".English_Category.EnglishActivity"
             android:screenOrientation="portrait"
             tools:ignore="InnerclassSeparator" />
         <activity
