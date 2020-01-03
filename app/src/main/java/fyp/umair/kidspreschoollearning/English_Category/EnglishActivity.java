@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 
+import fyp.umair.kidspreschoollearning.Dashboard.DashboardScreen;
 import fyp.umair.kidspreschoollearning.R;
 
 public class EnglishActivity extends AppCompatActivity
@@ -38,5 +39,10 @@ public class EnglishActivity extends AppCompatActivity
             }
         });
 
+    }
+
+    public void LaunchDashboard(View view)
+    {
+        startActivity(new Intent(getApplicationContext(), DashboardScreen.class));
     }
 }

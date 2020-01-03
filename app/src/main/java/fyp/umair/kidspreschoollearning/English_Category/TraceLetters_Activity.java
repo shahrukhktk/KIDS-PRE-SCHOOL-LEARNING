@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import fyp.umair.kidspreschoollearning.R;
@@ -256,5 +257,10 @@ public class TraceLetters_Activity extends AppCompatActivity
             ft.commit();
         }
 
+    }
+
+    public void LaunchEnglishActivity(View view)
+    {
+        startActivity(new Intent(getApplicationContext(), EnglishActivity.class));
     }
 }
