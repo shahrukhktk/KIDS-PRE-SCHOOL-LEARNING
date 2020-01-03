@@ -7,6 +7,8 @@ import androidx.fragment.app.FragmentTransaction;
 
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ImageView;
+import android.widget.TextView;
 
 import fyp.umair.kidspreschoollearning.Fragments.Character_A_Fragment;
 import fyp.umair.kidspreschoollearning.Fragments.Character_B_Fragment;
@@ -29,10 +31,19 @@ public class EnglishAlphabets_Activity extends AppCompatActivity
             FragmentTransaction ft = fm.beginTransaction();
             ft.replace(R.id.fragment_container_ID, fragment);
             ft.commit();
+//            ImageView playBtnImage = (ImageView)findViewById(R.id.alphabets_image_ID);
+//            ImageView alphabetImage = (ImageView)findViewById(R.id.alphabets_image_ID);
+//            TextView letter = (TextView)findViewById(R.id.alphabet_TxtId);
+//            TextView letterName = (TextView)findViewById(R.id.alphabet_TxtId);
+//            playBtnImage.setImageResource(R.drawable.play_button_icon);
+//            alphabetImage.setImageResource(R.drawable.apple);
+//            letter.setText("Aa");
+//            letterName.setText("Apple");
+
         }
         else if(view == findViewById(R.id.character_B_Id))
         {
-            Fragment fragment = new Character_B_Fragment();
+            Fragment fragment = new Character_A_Fragment();
             FragmentManager fm = getSupportFragmentManager();
             FragmentTransaction ft = fm.beginTransaction();
             ft.replace(R.id.fragment_container_ID, fragment);

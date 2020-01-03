@@ -54,11 +54,11 @@
                     android:id="@+id/character_A_Id"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:background="@android:color/transparent"
-                    android:src="@drawable/img_a"
                     android:layout_gravity="center"
                     android:layout_marginTop="20dp"
-                    android:onClick="EnglishAlphabetsFragmentsCall"/>
+                    android:background="@android:color/transparent"
+                    android:onClick="EnglishAlphabetsFragmentsCall"
+                    android:src="@drawable/img_a" />
                 <ImageView
                     android:id="@+id/character_B_Id"
                     android:layout_width="wrap_content"
