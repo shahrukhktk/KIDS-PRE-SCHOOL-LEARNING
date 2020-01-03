@@ -19,7 +19,7 @@ public class Character_T_Fragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
     {
         // Inflate the layout for this fragment
-        View view = inflater.inflate(R.layout.fragment_b_activity_, container, false);
+        View view = inflater.inflate(R.layout.fragment_t_activity_, container, false);
         return view;
     }
 
