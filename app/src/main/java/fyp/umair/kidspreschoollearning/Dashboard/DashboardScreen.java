@@ -24,6 +24,7 @@ public class DashboardScreen extends AppCompatActivity
         Toolbar toolbar = (Toolbar) findViewById(R.id.dashboard_toolbar_Id);
         setSupportActionBar(toolbar);
         getSupportActionBar().setTitle("Dashboard");
+
     }
 
     @Override

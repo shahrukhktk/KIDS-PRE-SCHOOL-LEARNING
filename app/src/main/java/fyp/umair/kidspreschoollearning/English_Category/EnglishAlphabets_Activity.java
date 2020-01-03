@@ -7,35 +7,33 @@ import androidx.fragment.app.FragmentTransaction;
 
 import android.os.Bundle;
 import android.view.View;
-import android.widget.ImageView;
-import android.widget.TextView;
 
-import fyp.umair.kidspreschoollearning.Fragments.Character_A_Fragment;
-import fyp.umair.kidspreschoollearning.Fragments.Character_B_Fragment;
-import fyp.umair.kidspreschoollearning.Fragments.Character_C_Fragment;
-import fyp.umair.kidspreschoollearning.Fragments.Character_D_Fragment;
-import fyp.umair.kidspreschoollearning.Fragments.Character_E_Fragment;
-import fyp.umair.kidspreschoollearning.Fragments.Character_F_Fragment;
-import fyp.umair.kidspreschoollearning.Fragments.Character_G_Fragment;
-import fyp.umair.kidspreschoollearning.Fragments.Character_H_Fragment;
-import fyp.umair.kidspreschoollearning.Fragments.Character_I_Fragment;
-import fyp.umair.kidspreschoollearning.Fragments.Character_J_Fragment;
-import fyp.umair.kidspreschoollearning.Fragments.Character_K_Fragment;
-import fyp.umair.kidspreschoollearning.Fragments.Character_L_Fragment;
-import fyp.umair.kidspreschoollearning.Fragments.Character_M_Fragment;
-import fyp.umair.kidspreschoollearning.Fragments.Character_N_Fragment;
-import fyp.umair.kidspreschoollearning.Fragments.Character_O_Fragment;
-import fyp.umair.kidspreschoollearning.Fragments.Character_P_Fragment;
-import fyp.umair.kidspreschoollearning.Fragments.Character_Q_Fragment;
-import fyp.umair.kidspreschoollearning.Fragments.Character_R_Fragment;
-import fyp.umair.kidspreschoollearning.Fragments.Character_S_Fragment;
-import fyp.umair.kidspreschoollearning.Fragments.Character_T_Fragment;
-import fyp.umair.kidspreschoollearning.Fragments.Character_U_Fragment;
-import fyp.umair.kidspreschoollearning.Fragments.Character_V_Fragment;
-import fyp.umair.kidspreschoollearning.Fragments.Character_W_Fragment;
-import fyp.umair.kidspreschoollearning.Fragments.Character_X_Fragment;
-import fyp.umair.kidspreschoollearning.Fragments.Character_Y_Fragment;
-import fyp.umair.kidspreschoollearning.Fragments.Character_Z_Fragment;
+import fyp.umair.kidspreschoollearning.EnglishAlphabetsFragments.Character_A_Fragment;
+import fyp.umair.kidspreschoollearning.EnglishAlphabetsFragments.Character_B_Fragment;
+import fyp.umair.kidspreschoollearning.EnglishAlphabetsFragments.Character_C_Fragment;
+import fyp.umair.kidspreschoollearning.EnglishAlphabetsFragments.Character_D_Fragment;
+import fyp.umair.kidspreschoollearning.EnglishAlphabetsFragments.Character_E_Fragment;
+import fyp.umair.kidspreschoollearning.EnglishAlphabetsFragments.Character_F_Fragment;
+import fyp.umair.kidspreschoollearning.EnglishAlphabetsFragments.Character_G_Fragment;
+import fyp.umair.kidspreschoollearning.EnglishAlphabetsFragments.Character_H_Fragment;
+import fyp.umair.kidspreschoollearning.EnglishAlphabetsFragments.Character_I_Fragment;
+import fyp.umair.kidspreschoollearning.EnglishAlphabetsFragments.Character_J_Fragment;
+import fyp.umair.kidspreschoollearning.EnglishAlphabetsFragments.Character_K_Fragment;
+import fyp.umair.kidspreschoollearning.EnglishAlphabetsFragments.Character_L_Fragment;
+import fyp.umair.kidspreschoollearning.EnglishAlphabetsFragments.Character_M_Fragment;
+import fyp.umair.kidspreschoollearning.EnglishAlphabetsFragments.Character_N_Fragment;
+import fyp.umair.kidspreschoollearning.EnglishAlphabetsFragments.Character_O_Fragment;
+import fyp.umair.kidspreschoollearning.EnglishAlphabetsFragments.Character_P_Fragment;
+import fyp.umair.kidspreschoollearning.EnglishAlphabetsFragments.Character_Q_Fragment;
+import fyp.umair.kidspreschoollearning.EnglishAlphabetsFragments.Character_R_Fragment;
+import fyp.umair.kidspreschoollearning.EnglishAlphabetsFragments.Character_S_Fragment;
+import fyp.umair.kidspreschoollearning.EnglishAlphabetsFragments.Character_T_Fragment;
+import fyp.umair.kidspreschoollearning.EnglishAlphabetsFragments.Character_U_Fragment;
+import fyp.umair.kidspreschoollearning.EnglishAlphabetsFragments.Character_V_Fragment;
+import fyp.umair.kidspreschoollearning.EnglishAlphabetsFragments.Character_W_Fragment;
+import fyp.umair.kidspreschoollearning.EnglishAlphabetsFragments.Character_X_Fragment;
+import fyp.umair.kidspreschoollearning.EnglishAlphabetsFragments.Character_Y_Fragment;
+import fyp.umair.kidspreschoollearning.EnglishAlphabetsFragments.Character_Z_Fragment;
 import fyp.umair.kidspreschoollearning.R;
 
 public class EnglishAlphabets_Activity extends AppCompatActivity
@@ -57,23 +55,21 @@ public class EnglishAlphabets_Activity extends AppCompatActivity
             ft.commit();
             return;
         }
-        if(view == findViewById(R.id.character_B_Id))
+        else if(view == findViewById(R.id.character_B_Id))
         {
             Fragment fragment = new Character_B_Fragment();
             FragmentManager fm = getSupportFragmentManager();
             FragmentTransaction ft = fm.beginTransaction();
             ft.replace(R.id.fragment_container_ID, fragment);
             ft.commit();
-            return;
         }
-        if(view == findViewById(R.id.character_C_Id))
+        else if(view == findViewById(R.id.character_C_Id))
         {
             Fragment fragment = new Character_C_Fragment();
             FragmentManager fm = getSupportFragmentManager();
             FragmentTransaction ft = fm.beginTransaction();
             ft.replace(R.id.fragment_container_ID, fragment);
             ft.commit();
-            return;
         }
         else if(view == findViewById(R.id.character_D_Id))
         {
