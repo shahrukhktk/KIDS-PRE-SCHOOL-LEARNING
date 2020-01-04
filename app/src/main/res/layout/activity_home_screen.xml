@@ -84,6 +84,7 @@
                     android:layout_height="match_parent"
                     android:orientation="vertical"
                     android:layout_weight="1"
+                    android:onClick="GoToMathActivity"
                     android:weightSum="3.5">
 
                     <ImageView

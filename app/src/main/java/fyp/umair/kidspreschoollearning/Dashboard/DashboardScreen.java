@@ -11,6 +11,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
 import fyp.umair.kidspreschoollearning.English_Category.EnglishActivity;
+import fyp.umair.kidspreschoollearning.Maths_Category.MathsDashboard;
 import fyp.umair.kidspreschoollearning.R;
 
 public class DashboardScreen extends AppCompatActivity
@@ -48,5 +49,10 @@ public class DashboardScreen extends AppCompatActivity
     public void GoToEnglishActivity(View view)
     {
         startActivity(new Intent(getApplicationContext(), EnglishActivity.class));
+    }
+
+    public void GoToMathActivity(View view)
+    {
+        startActivity(new Intent(getApplicationContext(), MathsDashboard.class));
     }
 }
