@@ -76,4 +76,8 @@
     <string name="zz">Z z</string>
     <string name="Zebra">Zebra</string>
     <string name="traceletters">Trace Letters</string>
+    <string name="counting">Counting</string>
+    <string name="tables">Maths Tables</string>
+    <string name="addition">Addition</string>
+    <string name="Subtraction">Subtraction</string>
 </resources>

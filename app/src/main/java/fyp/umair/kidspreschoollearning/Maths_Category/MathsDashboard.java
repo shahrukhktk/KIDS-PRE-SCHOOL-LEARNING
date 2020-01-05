@@ -23,4 +23,14 @@ public class MathsDashboard extends AppCompatActivity
     {
         startActivity(new Intent(getApplicationContext(), DashboardScreen.class));
     }
+
+    public void GoToCounting(View view)
+    {
+
+    }
+
+    public void GoToTables(View view)
+    {
+
+    }
 }
