@@ -11,7 +11,12 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="AllowBackup,GoogleAppIndexingWarning">
-        <activity android:name=".Maths_Category.Tables.MathTables"></activity>
+        <activity
+            android:name=".Dashboard.MainActivity"
+            android:label="@string/title_activity_main">
+
+        </activity>
+        <activity android:name=".Maths_Category.Tables.MathTables" />
         <activity android:name=".Maths_Category.Subtraction.MathSubtraction" />
         <activity android:name=".Maths_Category.Counting.MathCounting" />
         <activity android:name=".Maths_Category.Addition.MathAddition" />
@@ -26,10 +31,6 @@
             tools:ignore="InnerclassSeparator" />
         <activity
             android:name=".English_Category.EnglishActivity"
-            android:screenOrientation="portrait"
-            tools:ignore="InnerclassSeparator" />
-        <activity
-            android:name=".Dashboard.DashboardScreen"
             android:screenOrientation="portrait"
             tools:ignore="InnerclassSeparator" />
         <activity

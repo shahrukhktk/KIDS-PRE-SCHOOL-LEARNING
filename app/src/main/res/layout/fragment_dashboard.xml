@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Dashboard.DashboardScreen"
-    android:orientation="vertical">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".Dashboard.MainActivityFragments.Dashboard">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/dashboard_toolbar_Id"
@@ -47,12 +46,12 @@
                     tools:ignore="NestedWeights" />
 
                 <LinearLayout
+                    android:id="@+id/englishActivityLayoutID"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:orientation="vertical"
                     android:layout_weight="1"
                     android:weightSum="3.5"
-                    android:onClick="GoToEnglishActivity"
                     tools:ignore="OnClick">
 
                     <ImageView
@@ -80,12 +79,13 @@
                     android:layout_weight="0.2"/>
 
                 <LinearLayout
+                    android:id="@+id/mathActivityLayoutID"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:orientation="vertical"
                     android:layout_weight="1"
-                    android:onClick="GoToMathActivity"
-                    android:weightSum="3.5">
+                    android:weightSum="3.5"
+                    tools:ignore="OnClick">
 
                     <ImageView
                         android:layout_width="match_parent"
