@@ -129,6 +129,7 @@
                 android:layout_height="match_parent"
                 android:orientation="vertical"
                 android:layout_weight="1"
+                android:onClick="GoToSubtract"
                 android:weightSum="3">
 
                 <ImageView
@@ -175,6 +176,7 @@
                 android:layout_height="match_parent"
                 android:orientation="vertical"
                 android:layout_weight="1"
+                android:onClick="GoToAddition"
                 android:weightSum="3">
 
                 <ImageView

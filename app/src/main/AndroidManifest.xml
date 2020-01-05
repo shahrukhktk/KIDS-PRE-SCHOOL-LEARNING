@@ -11,7 +11,11 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="AllowBackup,GoogleAppIndexingWarning">
-        <activity android:name=".Maths_Category.MathsDashboard"></activity>
+        <activity android:name=".Maths_Category.Tables.MathTables"></activity>
+        <activity android:name=".Maths_Category.Subtraction.MathSubtraction" />
+        <activity android:name=".Maths_Category.Counting.MathCounting" />
+        <activity android:name=".Maths_Category.Addition.MathAddition" />
+        <activity android:name=".Maths_Category.MathsDashboard" />
         <activity
             android:name=".English_Category.TraceLetters_Activity"
             android:screenOrientation="portrait"
