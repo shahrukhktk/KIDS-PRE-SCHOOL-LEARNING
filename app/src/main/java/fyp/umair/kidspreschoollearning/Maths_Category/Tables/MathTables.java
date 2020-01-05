@@ -20,6 +20,7 @@ import fyp.umair.kidspreschoollearning.Maths_Category.Counting.CountingFragments
 import fyp.umair.kidspreschoollearning.Maths_Category.Counting.CountingFragments.NumThree;
 import fyp.umair.kidspreschoollearning.Maths_Category.Counting.CountingFragments.NumTwo;
 import fyp.umair.kidspreschoollearning.Maths_Category.MathsDashboard;
+import fyp.umair.kidspreschoollearning.Maths_Category.Tables.TablesFragments.Table_2;
 import fyp.umair.kidspreschoollearning.R;
 
 public class MathTables extends AppCompatActivity {
@@ -39,71 +40,7 @@ public class MathTables extends AppCompatActivity {
     {
         if(view == findViewById(R.id.numTwo_Id))
         {
-            Fragment fragment = new NumTwo();
-            FragmentManager fm = getSupportFragmentManager();
-            FragmentTransaction ft = fm.beginTransaction();
-            ft.replace(R.id.fragment_container_ID, fragment);
-            ft.commit();
-        }
-        else if(view == findViewById(R.id.numThree_Id))
-        {
-            Fragment fragment = new NumThree();
-            FragmentManager fm = getSupportFragmentManager();
-            FragmentTransaction ft = fm.beginTransaction();
-            ft.replace(R.id.fragment_container_ID, fragment);
-            ft.commit();
-        }
-        else if(view == findViewById(R.id.numFour_Id))
-        {
-            Fragment fragment = new NumFour();
-            FragmentManager fm = getSupportFragmentManager();
-            FragmentTransaction ft = fm.beginTransaction();
-            ft.replace(R.id.fragment_container_ID, fragment);
-            ft.commit();
-        }
-        else if(view == findViewById(R.id.numFive_Id))
-        {
-            Fragment fragment = new NumFive();
-            FragmentManager fm = getSupportFragmentManager();
-            FragmentTransaction ft = fm.beginTransaction();
-            ft.replace(R.id.fragment_container_ID, fragment);
-            ft.commit();
-        }
-        else if(view == findViewById(R.id.numSix_Id))
-        {
-            Fragment fragment = new NumSix();
-            FragmentManager fm = getSupportFragmentManager();
-            FragmentTransaction ft = fm.beginTransaction();
-            ft.replace(R.id.fragment_container_ID, fragment);
-            ft.commit();
-        }
-        else if(view == findViewById(R.id.numSeven_Id))
-        {
-            Fragment fragment = new NumSeven();
-            FragmentManager fm = getSupportFragmentManager();
-            FragmentTransaction ft = fm.beginTransaction();
-            ft.replace(R.id.fragment_container_ID, fragment);
-            ft.commit();
-        }
-        else if(view == findViewById(R.id.numEight_Id))
-        {
-            Fragment fragment = new NumEight();
-            FragmentManager fm = getSupportFragmentManager();
-            FragmentTransaction ft = fm.beginTransaction();
-            ft.replace(R.id.fragment_container_ID, fragment);
-            ft.commit();
-        }
-        else if(view == findViewById(R.id.numNine_Id))
-        {
-            Fragment fragment = new NumNine();
-            FragmentManager fm = getSupportFragmentManager();
-            FragmentTransaction ft = fm.beginTransaction();
-            ft.replace(R.id.fragment_container_ID, fragment);
-            ft.commit();
-        }
-        else if(view == findViewById(R.id.numTen_Id))
-        {
-            Fragment fragment = new NumTen();
+            Fragment fragment = new Table_2();
             FragmentManager fm = getSupportFragmentManager();
             FragmentTransaction ft = fm.beginTransaction();
             ft.replace(R.id.fragment_container_ID, fragment);
