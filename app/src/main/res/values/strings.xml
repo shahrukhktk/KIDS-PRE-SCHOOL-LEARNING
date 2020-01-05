@@ -80,4 +80,15 @@
     <string name="tables">Maths Tables</string>
     <string name="addition">Addition</string>
     <string name="Subtraction">Subtraction</string>
+    <string name="one">One</string>
+    <string name="two">Two</string>
+    <string name="apples">Apples</string>
+    <string name="Three">Three</string>
+    <string name="four">Four</string>
+    <string name="five">Five</string>
+    <string name="six">Six</string>
+    <string name="seven">Seven</string>
+    <string name="eight">Eight</string>
+    <string name="nine">Nine</string>
+    <string name="ten">Ten</string>
 </resources>
