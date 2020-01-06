@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import fyp.umair.kidspreschoollearning.Dashboard.MainActivityFragments.Dashboard;
 import fyp.umair.kidspreschoollearning.Maths_Category.Addition.MathAddition;
 import fyp.umair.kidspreschoollearning.Maths_Category.Counting.MathCounting;
 import fyp.umair.kidspreschoollearning.Maths_Category.Subtraction.MathSubtraction;
@@ -24,7 +25,7 @@ public class MathsDashboard extends AppCompatActivity
 
     public void LaunchDashboard(View view)
     {
-        startActivity(new Intent(getApplicationContext(), DashboardScreen.class));
+        startActivity(new Intent(getApplicationContext(), Dashboard.class));
     }
 
     public void GoToCounting(View view)
