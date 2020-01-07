@@ -41,8 +41,13 @@
         android:orientation="horizontal"
         android:weightSum="4">
 
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/mathAdditionListView_Id">
+
+        </ListView>
 
     </LinearLayout>
-
 
 </LinearLayout>
