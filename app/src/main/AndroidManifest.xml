@@ -11,13 +11,20 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="AllowBackup,GoogleAppIndexingWarning">
-        <activity android:name=".FruitsandVegetables.FruitsActivity"
+        <activity android:name=".FruitsandVegetables.VegetablesActivity"
             android:screenOrientation="portrait"
-            android:parentActivityName=".Dashboard.MainActivity"/>
+            android:parentActivityName=".Dashboard.MainActivity"
+            tools:ignore="InnerclassSeparator,UnusedAttribute" />
+        <activity
+            android:name=".FruitsandVegetables.FruitsActivity"
+            android:parentActivityName=".Dashboard.MainActivity"
+            android:screenOrientation="portrait"
+            tools:ignore="InnerclassSeparator,UnusedAttribute" />
         <activity
             android:name=".Dashboard.MainActivity"
             android:label="@string/title_activity_main"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"
+            tools:ignore="InnerclassSeparator" />
         <activity
             android:name=".Maths_Category.Tables.MathTables"
             android:screenOrientation="portrait"

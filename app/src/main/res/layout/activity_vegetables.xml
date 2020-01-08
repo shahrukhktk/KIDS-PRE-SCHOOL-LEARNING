@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".FruitsandVegetables.FruitsActivity">
+    tools:context=".FruitsandVegetables.VegetablesActivity">
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
@@ -18,19 +18,21 @@
             android:id="@+id/collapsToolbar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:layout_scrollFlags="scroll|exitUntilCollapsed"
+            app:layout_scrollFlags="exitUntilCollapsed|scroll"
             app:contentScrim="@color/colorPrimary"
-            app:title="@string/fruits"
+            app:title="@string/vegetables"
             app:expandedTitleMarginStart="48dp"
             app:expandedTitleMarginEnd="64dp"
-            android:background="@drawable/fruitsheader">
+            android:background="@drawable/vegetablesheader">
 
             <androidx.appcompat.widget.Toolbar
-                android:id="@+id/fruitsToolbar"
+                android:id="@+id/vegetablesToolbar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
-                />
+                app:layout_collapseMode="pin"
+                >
+            </androidx.appcompat.widget.Toolbar>
 
         </com.google.android.material.appbar.CollapsingToolbarLayout>
 
@@ -65,17 +67,17 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/apple_fruit_id"
+                        android:id="@+id/tomato_id"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
-                        android:src="@drawable/apple_fruite" />
+                        android:src="@drawable/tomato" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
-                        android:text="@string/apple"
+                        android:text="@string/tomato"
                         android:textSize="16dp"
                         android:fontFamily="@font/sniglet_regular"
                         android:textAlignment="center"/>
@@ -91,17 +93,17 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/orange_fruit_id"
+                        android:id="@+id/carrot_id"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
-                        android:src="@drawable/orange_fruite" />
+                        android:src="@drawable/carrot" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
-                        android:text="@string/orange"
+                        android:text="@string/carrot"
                         android:textSize="16dp"
                         android:fontFamily="@font/sniglet_regular"
                         android:textAlignment="center"/>
@@ -117,17 +119,106 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/banana_fruit_id"
+                        android:id="@+id/cucumber_id"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
-                        android:src="@drawable/banana_fruit" />
+                        android:src="@drawable/cucumber" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
-                        android:text="@string/banana"
+                        android:text="@string/cucumber"
+                        android:textSize="16dp"
+                        android:fontFamily="@font/sniglet_regular"
+                        android:textAlignment="center"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/cauliflower_id"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:src="@drawable/cauliflower" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:text="@string/cauliflower"
+                        android:textSize="16dp"
+                        android:fontFamily="@font/sniglet_regular"
+                        android:textAlignment="center"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/cabbage_id"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:src="@drawable/cabage" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:text="@string/cabbage"
+                        android:textSize="16dp"
+                        android:fontFamily="@font/sniglet_regular"
+                        android:textAlignment="center"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/onion_id"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:src="@drawable/onion" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:text="@string/onion"
                         android:textSize="16dp"
                         android:fontFamily="@font/sniglet_regular"
                         android:textAlignment="center"/>
@@ -156,18 +247,18 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/lemon_id"
+                        android:id="@+id/greenCapsicum_id"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
-                        android:src="@drawable/lemon_fruit" />
+                        android:src="@drawable/green_capsicum" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
-                        android:text="@string/lemon"
-                        android:textSize="16dp"
+                        android:text="@string/greenCapcicum"
+                        android:textSize="16sp"
                         android:fontFamily="@font/sniglet_regular"
                         android:textAlignment="center"/>
 
@@ -182,18 +273,18 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/strawberry_fruit_id"
+                        android:id="@+id/redCapsicum_id"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
-                        android:src="@drawable/strawberry_fruit" />
+                        android:src="@drawable/red_capsicum" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
-                        android:text="@string/strawberry"
-                        android:textSize="16dp"
+                        android:text="@string/redcapsicum"
+                        android:textSize="16sp"
                         android:fontFamily="@font/sniglet_regular"
                         android:textAlignment="center"/>
 
@@ -208,108 +299,17 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/pineapple_fruit_id"
+                        android:id="@+id/yellowCapsicum_id"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
-                        android:src="@drawable/pineapple_fruits" />
+                        android:src="@drawable/yellow_capsicum" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
-                        android:text="@string/pineapple"
-                        android:textSize="16dp"
-                        android:fontFamily="@font/sniglet_regular"
-                        android:textAlignment="center"/>
-
-                </LinearLayout>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_margin="5dp"
-                android:gravity="center"
-                android:orientation="horizontal"
-                android:weightSum="3"
-
-                >
-
-                <LinearLayout
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_gravity="center"
-                    android:layout_weight="1"
-                    android:gravity="center"
-                    android:orientation="vertical">
-
-                    <ImageView
-                        android:id="@+id/mango_fruit_id"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="5dp"
-                        android:src="@drawable/mango_fruit" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="5dp"
-                        android:text="@string/mango"
-                        android:textSize="16dp"
-                        android:fontFamily="@font/sniglet_regular"
-                        android:textAlignment="center"/>
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_gravity="center"
-                    android:layout_weight="1"
-                    android:gravity="center"
-                    android:orientation="vertical">
-
-                    <ImageView
-                        android:id="@+id/anar_fruit_id"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="5dp"
-                        android:src="@drawable/pomegrenate_fruit" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="5dp"
-                        android:text="@string/pomegrenate"
-                        android:textSize="14dp"
-                        android:fontFamily="@font/sniglet_regular"
-                        android:textAlignment="center"/>
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_gravity="center"
-                    android:layout_weight="1"
-                    android:gravity="center"
-                    android:orientation="vertical">
-
-                    <ImageView
-                        android:id="@+id/blackberry_fruit_id"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="5dp"
-                        android:src="@drawable/berry_fruit" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="5dp"
-                        android:text="@string/black_berry"
+                        android:text="@string/yellow_capsicum"
                         android:textSize="16dp"
                         android:fontFamily="@font/sniglet_regular"
                         android:textAlignment="center"/>
@@ -338,17 +338,17 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/peach_fruit_id"
+                        android:id="@+id/corn_id"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
-                        android:src="@drawable/appricot_fruit" />
+                        android:src="@drawable/corn" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
-                        android:text="@string/appricot"
+                        android:text="@string/corn"
                         android:textSize="16dp"
                         android:fontFamily="@font/sniglet_regular"
                         android:textAlignment="center"/>
@@ -364,17 +364,17 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/watermelon_fruit_id"
+                        android:id="@+id/peas_id"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
-                        android:src="@drawable/watermelon_fruit" />
+                        android:src="@drawable/peas" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
-                        android:text="@string/water_melon"
+                        android:text="@string/peas"
                         android:textSize="16dp"
                         android:fontFamily="@font/sniglet_regular"
                         android:textAlignment="center"/>
@@ -390,17 +390,17 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/redberry_fruit_id"
+                        android:id="@+id/redChilli_id"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
-                        android:src="@drawable/rasberry_fruit" />
+                        android:src="@drawable/red_chilli" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
-                        android:text="@string/ras_berries"
+                        android:text="@string/redchilli"
                         android:textSize="16dp"
                         android:fontFamily="@font/sniglet_regular"
                         android:textAlignment="center"/>
@@ -417,9 +417,7 @@
                 android:layout_margin="5dp"
                 android:gravity="center"
                 android:orientation="horizontal"
-                android:weightSum="3"
-
-                >
+                android:weightSum="3">
 
                 <LinearLayout
                     android:layout_width="0dp"
@@ -430,17 +428,17 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/grapes_fruit_id"
+                        android:id="@+id/brinjal_id"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
-                        android:src="@drawable/grapes_fruit" />
+                        android:src="@drawable/brinjal" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
-                        android:text="@string/grapes"
+                        android:text="@string/brinjal"
                         android:textSize="16dp"
                         android:fontFamily="@font/sniglet_regular"
                         android:textAlignment="center"/>
@@ -456,17 +454,17 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/peer_fruit_id"
+                        android:id="@+id/potato_id"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
-                        android:src="@drawable/peer_fruit" />
+                        android:src="@drawable/potato" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
-                        android:text="@string/peer"
+                        android:text="@string/potato"
                         android:textSize="16dp"
                         android:fontFamily="@font/sniglet_regular"
                         android:textAlignment="center"/>
@@ -482,17 +480,17 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/melon_fruit_id"
+                        android:id="@+id/salad_id"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
-                        android:src="@drawable/chery_fruit" />
+                        android:src="@drawable/salad" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
-                        android:text="@string/cherry"
+                        android:text="@string/salad"
                         android:textSize="16dp"
                         android:fontFamily="@font/sniglet_regular"
                         android:textAlignment="center"/>
@@ -500,6 +498,96 @@
                 </LinearLayout>
 
             </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/pumpkin_id"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:src="@drawable/pumpkin" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:text="@string/pumpkin"
+                        android:textSize="16dp"
+                        android:fontFamily="@font/sniglet_regular"
+                        android:textAlignment="center"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/reddish_id"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:src="@drawable/raddish" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:text="@string/raddish"
+                        android:textSize="16dp"
+                        android:fontFamily="@font/sniglet_regular"
+                        android:textAlignment="center"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/turnip_id"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:src="@drawable/turnip" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:text="@string/turnip"
+                        android:textSize="16dp"
+                        android:fontFamily="@font/sniglet_regular"
+                        android:textAlignment="center"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
 
             <View
                 android:layout_width="match_parent"

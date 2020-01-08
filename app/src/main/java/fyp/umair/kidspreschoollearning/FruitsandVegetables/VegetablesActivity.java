@@ -7,18 +7,17 @@ import android.os.Bundle;
 
 import fyp.umair.kidspreschoollearning.R;
 
-public class FruitsActivity extends AppCompatActivity
+public class VegetablesActivity extends AppCompatActivity
 {
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_fruits);
+        setContentView(R.layout.activity_vegetables);
 
-        Toolbar toolbar = findViewById(R.id.fruitsToolbar);
+        Toolbar toolbar = findViewById(R.id.vegetablesToolbar);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-
     }
 }

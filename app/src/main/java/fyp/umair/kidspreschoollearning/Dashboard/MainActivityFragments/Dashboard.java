@@ -19,6 +19,7 @@ import android.widget.LinearLayout;
 
 import fyp.umair.kidspreschoollearning.English_Category.EnglishActivity;
 import fyp.umair.kidspreschoollearning.FruitsandVegetables.FruitsActivity;
+import fyp.umair.kidspreschoollearning.FruitsandVegetables.VegetablesActivity;
 import fyp.umair.kidspreschoollearning.Maths_Category.MathsDashboard;
 import fyp.umair.kidspreschoollearning.R;
 
@@ -39,7 +40,7 @@ public class Dashboard extends Fragment
         english = view.findViewById(R.id.englishActivityLayoutID);
         maths = view.findViewById(R.id.mathActivityLayoutID);
         fruits = view.findViewById(R.id.fruitsActivityLayoutID);
-
+        vegetables = view.findViewById(R.id.vegetablesActivityLayoutID);
 
         english.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -57,6 +58,12 @@ public class Dashboard extends Fragment
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(getContext(), FruitsActivity.class));
+            }
+        });
+        vegetables.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getContext(), VegetablesActivity.class));
             }
         });
 

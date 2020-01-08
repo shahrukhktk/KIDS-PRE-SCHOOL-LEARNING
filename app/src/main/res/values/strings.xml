@@ -97,4 +97,35 @@
     <string name="apple">Apple</string>
     <string name="orange">Orange</string>
     <string name="banana">Banana</string>
+    <string name="cherry">Cherry</string>
+    <string name="peer">Peer</string>
+    <string name="grapes">Grapes</string>
+    <string name="ras_berries">Ras Berries</string>
+    <string name="water_melon">Water Melon</string>
+    <string name="appricot">Appricot</string>
+    <string name="black_berry">Black Berry</string>
+    <string name="pomegrenate">Pomegrenate</string>
+    <string name="mango">Mango</string>
+    <string name="pineapple">PineApple</string>
+    <string name="strawberry">Strawberry</string>
+    <string name="lemon">Lemon</string>
+    <string name="tomato">Tomato</string>
+    <string name="carrot">Carrot</string>
+    <string name="cucumber">Cucumber</string>
+    <string name="cauliflower">Cauli Flower</string>
+    <string name="cabbage">Cabbage</string>
+    <string name="onion">Onion</string>
+    <string name="greenCapcicum">Green Capsicum</string>
+    <string name="redcapsicum">Red    Capsicum</string>
+    <string name="yellow_capsicum">Yellow Capsicum</string>
+    <string name="corn">Corn</string>
+    <string name="peas">Peas</string>
+    <string name="redchilli">Red Chilli</string>
+    <string name="brinjal">Brinjal</string>
+    <string name="potato">Potato</string>
+    <string name="salad">Salad</string>
+    <string name="pumpkin">Pumpkin</string>
+    <string name="raddish">Reddish</string>
+    <string name="turnip">Turnip</string>
+
 </resources>
