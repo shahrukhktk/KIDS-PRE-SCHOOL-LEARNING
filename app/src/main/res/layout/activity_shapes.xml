@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.coordinatorlayout.widget.CoordinatorLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".FruitsandVegetables.FruitsActivity">
+    tools:context=".Shapes.ShapesActivity">
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
@@ -20,13 +19,13 @@
             android:layout_height="wrap_content"
             app:layout_scrollFlags="scroll|exitUntilCollapsed"
             app:contentScrim="@color/colorPrimary"
-            app:title="@string/fruits"
+            app:title="@string/shapes"
             app:expandedTitleMarginStart="48dp"
             app:expandedTitleMarginEnd="64dp"
-            android:background="@drawable/fruitsheader">
+            android:background="@drawable/shapesheader">
 
             <androidx.appcompat.widget.Toolbar
-                android:id="@+id/fruitsToolbar"
+                android:id="@+id/shapesToolbar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
@@ -54,95 +53,6 @@
                 android:layout_margin="5dp"
                 android:gravity="center"
                 android:orientation="horizontal"
-                android:weightSum="3">
-
-                <LinearLayout
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_gravity="center"
-                    android:layout_weight="1"
-                    android:gravity="center"
-                    android:orientation="vertical">
-
-                    <ImageView
-                        android:id="@+id/apple_fruit_id"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="5dp"
-                        android:src="@drawable/apple_fruite" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="5dp"
-                        android:text="@string/apple"
-                        android:textSize="16dp"
-                        android:fontFamily="@font/sniglet_regular"
-                        android:textAlignment="center"/>
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_gravity="center"
-                    android:layout_weight="1"
-                    android:gravity="center"
-                    android:orientation="vertical">
-
-                    <ImageView
-                        android:id="@+id/orange_fruit_id"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="5dp"
-                        android:src="@drawable/orange_fruite" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="5dp"
-                        android:text="@string/orange"
-                        android:textSize="16dp"
-                        android:fontFamily="@font/sniglet_regular"
-                        android:textAlignment="center"/>
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_gravity="center"
-                    android:layout_weight="1"
-                    android:gravity="center"
-                    android:orientation="vertical">
-
-                    <ImageView
-                        android:id="@+id/banana_fruit_id"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="5dp"
-                        android:src="@drawable/banana_fruit" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="5dp"
-                        android:text="@string/banana"
-                        android:textSize="16dp"
-                        android:fontFamily="@font/sniglet_regular"
-                        android:textAlignment="center"/>
-
-                </LinearLayout>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_margin="5dp"
-                android:gravity="center"
-                android:orientation="horizontal"
                 android:weightSum="3"
 
                 >
@@ -156,17 +66,17 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/lemonfruit_id"
+                        android:id="@+id/squareshape_id"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
-                        android:src="@drawable/lemon_fruit" />
+                        android:src="@drawable/square" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
-                        android:text="@string/lemon"
+                        android:text="@string/square"
                         android:textSize="16dp"
                         android:fontFamily="@font/sniglet_regular"
                         android:textAlignment="center"/>
@@ -182,108 +92,17 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/strawberry_fruit_id"
+                        android:id="@+id/rectangleshape_id"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
-                        android:src="@drawable/strawberry_fruit" />
+                        android:src="@drawable/rectangle" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
-                        android:text="@string/strawberry"
-                        android:textSize="16dp"
-                        android:fontFamily="@font/sniglet_regular"
-                        android:textAlignment="center"/>
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_gravity="center"
-                    android:layout_weight="1"
-                    android:gravity="center"
-                    android:orientation="vertical">
-
-                    <ImageView
-                        android:id="@+id/pineapple_fruit_id"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="5dp"
-                        android:src="@drawable/pineapple_fruits" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="5dp"
-                        android:text="@string/pineapple"
-                        android:textSize="16dp"
-                        android:fontFamily="@font/sniglet_regular"
-                        android:textAlignment="center"/>
-
-                </LinearLayout>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_margin="5dp"
-                android:gravity="center"
-                android:orientation="horizontal"
-                android:weightSum="3"
-
-                >
-
-                <LinearLayout
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_gravity="center"
-                    android:layout_weight="1"
-                    android:gravity="center"
-                    android:orientation="vertical">
-
-                    <ImageView
-                        android:id="@+id/mango_fruit_id"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="5dp"
-                        android:src="@drawable/mango_fruit" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="5dp"
-                        android:text="@string/mango"
-                        android:textSize="16dp"
-                        android:fontFamily="@font/sniglet_regular"
-                        android:textAlignment="center"/>
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_gravity="center"
-                    android:layout_weight="1"
-                    android:gravity="center"
-                    android:orientation="vertical">
-
-                    <ImageView
-                        android:id="@+id/anar_fruit_id"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="5dp"
-                        android:src="@drawable/pomegrenate_fruit" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="5dp"
-                        android:text="@string/pomegrenate"
+                        android:text="@string/rectangle"
                         android:textSize="14dp"
                         android:fontFamily="@font/sniglet_regular"
                         android:textAlignment="center"/>
@@ -299,17 +118,17 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/blackberry_fruit_id"
+                        android:id="@+id/trianlgeshape_id"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
-                        android:src="@drawable/berry_fruit" />
+                        android:src="@drawable/triangle" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
-                        android:text="@string/black_berry"
+                        android:text="@string/triangle"
                         android:textSize="16dp"
                         android:fontFamily="@font/sniglet_regular"
                         android:textAlignment="center"/>
@@ -338,17 +157,17 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/appricotfruit_id"
+                        android:id="@+id/circleshape_id"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
-                        android:src="@drawable/appricot_fruit" />
+                        android:src="@drawable/circle" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
-                        android:text="@string/appricot"
+                        android:text="@string/circle"
                         android:textSize="16dp"
                         android:fontFamily="@font/sniglet_regular"
                         android:textAlignment="center"/>
@@ -364,17 +183,17 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/watermelon_fruit_id"
+                        android:id="@+id/ovalshape_id"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
-                        android:src="@drawable/watermelon_fruit" />
+                        android:src="@drawable/oval" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
-                        android:text="@string/water_melon"
+                        android:text="@string/oval"
                         android:textSize="16dp"
                         android:fontFamily="@font/sniglet_regular"
                         android:textAlignment="center"/>
@@ -390,17 +209,17 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/rasberry_fruit_id"
+                        android:id="@+id/heartshape_id"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
-                        android:src="@drawable/rasberry_fruit" />
+                        android:src="@drawable/heart" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
-                        android:text="@string/ras_berries"
+                        android:text="@string/heart"
                         android:textSize="16dp"
                         android:fontFamily="@font/sniglet_regular"
                         android:textAlignment="center"/>
@@ -430,17 +249,17 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/grapes_fruit_id"
+                        android:id="@+id/starshape_id"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
-                        android:src="@drawable/grapes_fruit" />
+                        android:src="@drawable/star" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
-                        android:text="@string/grapes"
+                        android:text="@string/star"
                         android:textSize="16dp"
                         android:fontFamily="@font/sniglet_regular"
                         android:textAlignment="center"/>
@@ -482,7 +301,7 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/chery_fruit_id"
+                        android:id="@+id/melon_fruit_id"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"

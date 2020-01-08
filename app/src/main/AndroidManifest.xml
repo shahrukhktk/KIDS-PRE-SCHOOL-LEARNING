@@ -11,9 +11,13 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="AllowBackup,GoogleAppIndexingWarning">
-        <activity android:name=".FruitsandVegetables.VegetablesActivity"
+        <activity android:name=".Shapes.ShapesActivity"
             android:screenOrientation="portrait"
+            android:parentActivityName=".Dashboard.MainActivity"/>
+        <activity
+            android:name=".FruitsandVegetables.VegetablesActivity"
             android:parentActivityName=".Dashboard.MainActivity"
+            android:screenOrientation="portrait"
             tools:ignore="InnerclassSeparator,UnusedAttribute" />
         <activity
             android:name=".FruitsandVegetables.FruitsActivity"
