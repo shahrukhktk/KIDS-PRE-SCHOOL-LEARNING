@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">Kids Pre School Learning</string>
     <string name="kids_pre_school_learning">Kids Pre-School Learning</string>
     <string name="we_improve_your_knowledge">we improve your knowledge</string>
@@ -20,13 +20,9 @@
     <string name="trace_the_letters">Trace The Letters</string>
     <string name="alphabets">Alphabets</string>
     <string name="english_alphabets">English Alphabets</string>
-
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="aa">Aa</string>
     <string name="bb">Bb</string>
     <string name="ball">Ball</string>
-    <string name="apple">Apple</string>
     <string name="cc">Cc</string>
     <string name="Cat">Cat</string>
     <string name="dd">Dd</string>
@@ -52,7 +48,6 @@
     <string name="nn">N n</string>
     <string name="nest">Nest</string>
     <string name="oo">O o</string>
-    <string name="orange">Orange</string>
     <string name="pp">P p</string>
     <string name="Parrot">Parrot</string>
     <string name="qq">Q q</string>
@@ -98,4 +93,8 @@
     <string name="prayers">Prayers</string>
     <string name="goodHabits">Good Habits</string>
     <string name="mathsadd">Mathematics Addition</string>
+    <string name="fruitsandvegetables"><![CDATA[Fruits & Vegetables]]></string>
+    <string name="apple">Apple</string>
+    <string name="orange">Orange</string>
+    <string name="banana">Banana</string>
 </resources>

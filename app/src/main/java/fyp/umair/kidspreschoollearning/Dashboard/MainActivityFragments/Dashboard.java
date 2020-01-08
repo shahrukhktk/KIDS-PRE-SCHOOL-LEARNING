@@ -18,13 +18,14 @@ import android.view.ViewGroup;
 import android.widget.LinearLayout;
 
 import fyp.umair.kidspreschoollearning.English_Category.EnglishActivity;
+import fyp.umair.kidspreschoollearning.FruitsandVegetables.FruitsActivity;
 import fyp.umair.kidspreschoollearning.Maths_Category.MathsDashboard;
 import fyp.umair.kidspreschoollearning.R;
 
 public class Dashboard extends Fragment
 {
     View view;
-    LinearLayout english, maths;
+    LinearLayout english, maths, animals, fruits, vegetables;
     Toolbar toolbar;
 
     @Override
@@ -37,6 +38,8 @@ public class Dashboard extends Fragment
 
         english = view.findViewById(R.id.englishActivityLayoutID);
         maths = view.findViewById(R.id.mathActivityLayoutID);
+        fruits = view.findViewById(R.id.fruitsActivityLayoutID);
+
 
         english.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -50,27 +53,14 @@ public class Dashboard extends Fragment
                 startActivity(new Intent(getContext(), MathsDashboard.class));
             }
         });
+        fruits.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getContext(), FruitsActivity.class));
+            }
+        });
 
         return view;
     }
-
-//    @Override
-//    public boolean onCreateOptionsMenu(Menu menu)
-//    {
-//        getActivity().getMenuInflater().inflate(R.menu.main, menu);
-//        return true;
-//    }
-//
-//    @Override
-//    public boolean onOptionsItemSelected(MenuItem item) {
-//        int id = item.getItemId();
-//
-//        //noinspection SimplifiableIfStatement
-//        if (id == R.id.action_feedback) {
-//            return true;
-//        }
-//
-//        return super.onOptionsItemSelected(item);
-//    }
 
 }

@@ -51,8 +51,7 @@
                     android:layout_height="match_parent"
                     android:orientation="vertical"
                     android:layout_weight="1"
-                    android:weightSum="3.5"
-                    tools:ignore="OnClick">
+                    android:weightSum="3.5">
 
                     <ImageView
                         android:layout_width="match_parent"
@@ -84,8 +83,7 @@
                     android:layout_height="match_parent"
                     android:orientation="vertical"
                     android:layout_weight="1"
-                    android:weightSum="3.5"
-                    tools:ignore="OnClick">
+                    android:weightSum="3.5">
 
                     <ImageView
                         android:layout_width="match_parent"
@@ -163,6 +161,7 @@
                     tools:ignore="NestedWeights" />
 
                 <LinearLayout
+                    android:id="@+id/fruitsActivityLayoutID"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:orientation="vertical"
@@ -194,6 +193,7 @@
                     android:layout_weight="0.2"/>
 
                 <LinearLayout
+                    android:id="@+id/vegetablesActivityLayoutID"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:orientation="vertical"
