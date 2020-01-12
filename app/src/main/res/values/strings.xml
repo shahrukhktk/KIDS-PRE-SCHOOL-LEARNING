@@ -134,5 +134,7 @@
     <string name="oval">Oval</string>
     <string name="heart">Heart</string>
     <string name="star">Star</string>
+    <string name="cresent">Cresent</string>
+    <string name="cross">Cross</string>
 
 </resources>
