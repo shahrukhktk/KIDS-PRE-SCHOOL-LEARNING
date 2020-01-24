@@ -14,15 +14,12 @@
         android:gravity="center"
         android:layout_weight="1">
 
-        <TextView
-            android:id="@+id/alphabetName_TxtId"
+        <ImageView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:gravity="center"
-            android:text="@string/Lion"
-            android:textSize="70dp"
-            android:fontFamily="@font/sniglet_regular"
+            android:src="@drawable/trace_a"
             android:textColor="@android:color/holo_red_light"
             android:textColorHint="@android:color/holo_red_light"
             />
