@@ -8,7 +8,7 @@
     tools:context=".Dashboard.MainActivityFragments.GoodHabits">
 
     <androidx.appcompat.widget.Toolbar
-        android:id="@+id/dashboard_toolbar_Id"
+        android:id="@+id/goodHabits_toolbar_Id"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/colorPrimary"
@@ -16,5 +16,11 @@
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
         app:popupTheme="@style/Widget.AppCompat.Light.ActionBar"
         app:titleTextColor="@android:color/white" />
+
+    <ListView
+        android:id="@+id/goodHabits_ListId"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp"/>
 
 </LinearLayout>
