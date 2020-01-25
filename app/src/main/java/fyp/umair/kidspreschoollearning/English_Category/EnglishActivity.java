@@ -1,12 +1,10 @@
 package fyp.umair.kidspreschoollearning.English_Category;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
-
 import fyp.umair.kidspreschoollearning.Dashboard.MainActivityFragments.Dashboard;
 import fyp.umair.kidspreschoollearning.R;
 
