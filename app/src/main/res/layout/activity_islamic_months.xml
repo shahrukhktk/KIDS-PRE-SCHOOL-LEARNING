@@ -68,16 +68,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
-                        android:src="@drawable/january" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="5dp"
-                        android:text="@string/january"
-                        android:textSize="16dp"
-                        android:fontFamily="@font/sniglet_regular"
-                        android:textAlignment="center"/>
+                        android:src="@drawable/islam_month_three" />
 
                 </LinearLayout>
 
@@ -94,16 +85,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
-                        android:src="@drawable/feb" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="5dp"
-                        android:text="@string/february"
-                        android:textSize="14dp"
-                        android:fontFamily="@font/sniglet_regular"
-                        android:textAlignment="center"/>
+                        android:src="@drawable/islam_month_two" />
 
                 </LinearLayout>
 
@@ -120,16 +102,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
-                        android:src="@drawable/march" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="5dp"
-                        android:text="@string/march"
-                        android:textSize="16dp"
-                        android:fontFamily="@font/sniglet_regular"
-                        android:textAlignment="center"/>
+                        android:src="@drawable/islam_month_one" />
 
                 </LinearLayout>
 
@@ -159,7 +132,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
-                        android:src="@drawable/april" />
+                        android:src="@drawable/islam_month_six" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -185,7 +158,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
-                        android:src="@drawable/may" />
+                        android:src="@drawable/islam_month_five" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -211,16 +184,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
-                        android:src="@drawable/june" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="5dp"
-                        android:text="@string/june"
-                        android:textSize="16dp"
-                        android:fontFamily="@font/sniglet_regular"
-                        android:textAlignment="center"/>
+                        android:src="@drawable/islam_month_four" />
 
                 </LinearLayout>
 
@@ -249,16 +213,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
-                        android:src="@drawable/july" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="5dp"
-                        android:text="@string/july"
-                        android:textSize="16dp"
-                        android:fontFamily="@font/sniglet_regular"
-                        android:textAlignment="center"/>
+                        android:src="@drawable/islam_month_nine" />
 
                 </LinearLayout>
 
@@ -275,16 +230,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
-                        android:src="@drawable/august" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="5dp"
-                        android:text="@string/august"
-                        android:textSize="16dp"
-                        android:fontFamily="@font/sniglet_regular"
-                        android:textAlignment="center"/>
+                        android:src="@drawable/islam_month_eight" />
 
                 </LinearLayout>
 
@@ -301,16 +247,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
-                        android:src="@drawable/september" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="5dp"
-                        android:text="@string/september"
-                        android:textSize="16dp"
-                        android:fontFamily="@font/sniglet_regular"
-                        android:textAlignment="center"/>
+                        android:src="@drawable/islam_month_seven" />
 
                 </LinearLayout>
 
@@ -338,16 +275,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
-                        android:src="@drawable/october" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="5dp"
-                        android:text="@string/october"
-                        android:textSize="16dp"
-                        android:fontFamily="@font/sniglet_regular"
-                        android:textAlignment="center"/>
+                        android:src="@drawable/islam_month_twelth" />
 
                 </LinearLayout>
 
@@ -364,16 +292,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
-                        android:src="@drawable/nov" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="5dp"
-                        android:text="@string/November"
-                        android:textSize="16dp"
-                        android:fontFamily="@font/sniglet_regular"
-                        android:textAlignment="center"/>
+                        android:src="@drawable/islam_month_eleven" />
 
                 </LinearLayout>
 
@@ -390,16 +309,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
-                        android:src="@drawable/dec" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="5dp"
-                        android:text="@string/december"
-                        android:textSize="16dp"
-                        android:fontFamily="@font/sniglet_regular"
-                        android:textAlignment="center"/>
+                        android:src="@drawable/islam_month_ten" />
 
                 </LinearLayout>
 
