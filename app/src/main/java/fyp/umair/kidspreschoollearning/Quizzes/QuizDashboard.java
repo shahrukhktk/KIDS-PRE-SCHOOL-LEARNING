@@ -1,39 +1,35 @@
-package fyp.umair.kidspreschoollearning.QuizMarks;
+package fyp.umair.kidspreschoollearning.Quizzes;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.LinearLayout;
+
+import fyp.umair.kidspreschoollearning.Dashboard.MainActivityFragments.Dashboard;
+import fyp.umair.kidspreschoollearning.QuizMarks.MarksList;
 import fyp.umair.kidspreschoollearning.R;
 
-public class QuizResultDashboard extends AppCompatActivity {
+public class QuizDashboard extends AppCompatActivity {
 
     private LinearLayout english, maths, animals, bodyparts, fruits, vegetables, shapes, days, months, islamicMonths, habits;
-    private Toolbar toolbar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_quiz_result_dashboard);
-
-        toolbar = (Toolbar) findViewById(R.id.quizlist_toolbar_Id);
-        toolbar.setTitle("Quiz Result");
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-
-        english = findViewById(R.id.englishActivityLayoutID);
-        maths = findViewById(R.id.mathActivityLayoutID);
-        animals = findViewById(R.id.animalsActivityLayoutID);
-        fruits = findViewById(R.id.fruitsActivityLayoutID);
-        vegetables = findViewById(R.id.vegetablesActivityLayoutID);
-        shapes = findViewById(R.id.shapesActivityLayoutID);
-        bodyparts = findViewById(R.id.partsOfBodyActivityLayoutID);
-        days = findViewById(R.id.daysActivityLayoutID);
-        months = findViewById(R.id.monthsActivityLayoutID);
-        islamicMonths = findViewById(R.id.islamicMonthsActivityLayoutID);
-        habits = findViewById(R.id.habitsActivityLayoutID);
+        setContentView(R.layout.activity_quiz_dashboard);
+        english = findViewById(R.id.englishQuizActivityLayoutID);
+        maths = findViewById(R.id.mathQuizActivityLayoutID);
+        animals = findViewById(R.id.animalsQuizActivityLayoutID);
+        fruits = findViewById(R.id.fruitsQuizActivityLayoutID);
+        vegetables = findViewById(R.id.vegetablesQuizActivityLayoutID);
+        shapes = findViewById(R.id.shapesQuizActivityLayoutID);
+        bodyparts = findViewById(R.id.partsOfBodyQuizActivityLayoutID);
+        days = findViewById(R.id.daysQuizActivityLayoutID);
+        months = findViewById(R.id.monthsQuizActivityLayoutID);
+        islamicMonths = findViewById(R.id.islamicMonthsQuizActivityLayoutID);
+        habits = findViewById(R.id.habitsQuizActivityLayoutID);
 
         english.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -101,5 +97,10 @@ public class QuizResultDashboard extends AppCompatActivity {
                 startActivity(new Intent(getApplicationContext(), MarksList.class));
             }
         });
+    }
+
+    public void LaunchDashboard(View view)
+    {
+        startActivity(new Intent(getApplicationContext(), Dashboard.class));
     }
 }

@@ -11,8 +11,17 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="AllowBackup,GoogleAppIndexingWarning">
-        <activity android:name=".Animals.AnimalsActivity"></activity>
-        <activity android:name=".QuizMarks.QuizResultDashboard" />
+        <activity android:name=".Quizzes.QuizDashboard"></activity>
+        <activity android:name=".Quizzes.StartQuizActivity" />
+        <activity android:name=".QuizMarks.MarksList" />
+        <activity
+            android:name=".Animals.AnimalsActivity"
+            android:parentActivityName=".Dashboard.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".QuizMarks.QuizResultDashboard"
+            android:parentActivityName=".Dashboard.MainActivity"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".HumanBodyParts.PartsOfBodyActivity"
             android:parentActivityName=".Dashboard.MainActivity"

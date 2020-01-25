@@ -175,5 +175,9 @@
     <string name="leg">Leg</string>
     <string name="belly">Belly</string>
     <string name="marks">Quiz Result</string>
+    <string name="quiz">Quiz</string>
+    <string name="enter_your_name">Enter Name</string>
+    <string name="enter_your_class">Enter your class</string>
+    <string name="startQuiz">Start Quiz</string>
 
 </resources>
