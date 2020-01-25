@@ -2,9 +2,9 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
-        android:id="@+id/action_feedback"
+        android:id="@+id/action_quizResult"
         android:icon="@drawable/ic_menu"
-        android:title="@string/feedback"
+        android:title="@string/marks"
         android:enabled="true"
         android:orderInCategory="100"
         />

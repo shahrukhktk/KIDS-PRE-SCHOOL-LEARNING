@@ -11,9 +11,12 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="AllowBackup,GoogleAppIndexingWarning">
-        <activity android:name=".HumanBodyParts.PartsOfBodyActivity"
-            android:screenOrientation="portrait"
-            android:parentActivityName=".Dashboard.MainActivity"/>
+        <activity android:name=".Animals.AnimalsActivity"></activity>
+        <activity android:name=".QuizMarks.QuizResultDashboard" />
+        <activity
+            android:name=".HumanBodyParts.PartsOfBodyActivity"
+            android:parentActivityName=".Dashboard.MainActivity"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Habits.HabitsDashboard"
             android:screenOrientation="portrait" />
@@ -24,11 +27,11 @@
         <activity
             android:name=".CalendarActivities.DaysNamesActivity"
             android:parentActivityName=".Dashboard.MainActivity"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".CalendarActivities.MonthsNamesActivity"
             android:parentActivityName=".Dashboard.MainActivity"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Shapes.ShapesActivity"
             android:parentActivityName=".Dashboard.MainActivity"
@@ -40,7 +43,7 @@
         <activity
             android:name=".FruitsandVegetables.FruitsActivity"
             android:parentActivityName=".Dashboard.MainActivity"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Dashboard.MainActivity"
             android:label="@string/title_activity_main"
