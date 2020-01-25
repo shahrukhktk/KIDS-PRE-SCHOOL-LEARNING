@@ -9,8 +9,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-import fyp.umair.kidspreschoollearning.EnglishAlphabetsFragments.Character_A_Fragment;
-import fyp.umair.kidspreschoollearning.EnglishAlphabetsFragments.Character_B_Fragment;
 import fyp.umair.kidspreschoollearning.Maths_Category.Counting.CountingFragments.NumEight;
 import fyp.umair.kidspreschoollearning.Maths_Category.Counting.CountingFragments.NumFive;
 import fyp.umair.kidspreschoollearning.Maths_Category.Counting.CountingFragments.NumFour;
