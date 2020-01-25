@@ -160,5 +160,19 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nose">Nose</string>
+    <string name="ear">Ear</string>
+    <string name="eyes">Eyes</string>
+    <string name="hand">Hand</string>
+    <string name="mouth">Mouth</string>
+    <string name="face">Face</string>
+    <string name="back">Back</string>
+    <string name="chest">Chest</string>
+    <string name="neck">Neck</string>
+    <string name="finger">Finger</string>
+    <string name="arm">Arm</string>
+    <string name="foot">Foot</string>
+    <string name="leg">Leg</string>
+    <string name="belly">Belly</string>
 
 </resources>

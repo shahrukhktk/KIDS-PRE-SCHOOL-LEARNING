@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.ImageView;
 
 import fyp.umair.kidspreschoollearning.Dashboard.MainActivity;
+import fyp.umair.kidspreschoollearning.Dashboard.MainActivityFragments.BadHabits;
 import fyp.umair.kidspreschoollearning.R;
 
 public class HabitsDashboard extends AppCompatActivity {
@@ -25,14 +26,14 @@ public class HabitsDashboard extends AppCompatActivity {
         goodHabits.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(getApplicationContext(), GoodHabits.class));
+//                startActivity(new Intent(getApplicationContext(), GoodHabits.class));
             }
         });
 
         badHabits.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(getApplicationContext(), BadHabits.class));
+//                startActivity(new Intent(getApplicationContext(), BadHabits.class));
             }
         });
 

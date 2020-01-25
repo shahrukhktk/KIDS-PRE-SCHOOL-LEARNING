@@ -11,8 +11,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="AllowBackup,GoogleAppIndexingWarning">
-
-        <activity android:name=".Habits.HabitsDashboard"
+        <activity android:name=".HumanBodyParts.PartsOfBodyActivity"></activity>
+        <activity
+            android:name=".Habits.HabitsDashboard"
             android:screenOrientation="portrait"
             tools:ignore="InnerclassSeparator" />
         <activity

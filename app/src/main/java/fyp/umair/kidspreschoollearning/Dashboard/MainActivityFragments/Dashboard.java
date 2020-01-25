@@ -19,6 +19,7 @@ import fyp.umair.kidspreschoollearning.English_Category.EnglishActivity;
 import fyp.umair.kidspreschoollearning.FruitsandVegetables.FruitsActivity;
 import fyp.umair.kidspreschoollearning.FruitsandVegetables.VegetablesActivity;
 import fyp.umair.kidspreschoollearning.Habits.HabitsDashboard;
+import fyp.umair.kidspreschoollearning.HumanBodyParts.PartsOfBodyActivity;
 import fyp.umair.kidspreschoollearning.Maths_Category.MathsDashboard;
 import fyp.umair.kidspreschoollearning.R;
 import fyp.umair.kidspreschoollearning.Shapes.ShapesActivity;
@@ -26,7 +27,7 @@ import fyp.umair.kidspreschoollearning.Shapes.ShapesActivity;
 public class Dashboard extends Fragment
 {
     View view;
-    LinearLayout english, maths, animals, fruits, vegetables, shapes, days, months, islamicMonths, habits, quiz;
+    LinearLayout english, maths, animals, bodyparts, fruits, vegetables, shapes, days, months, islamicMonths, habits, quiz;
     Toolbar toolbar;
 
     @Override
@@ -42,6 +43,7 @@ public class Dashboard extends Fragment
         fruits = view.findViewById(R.id.fruitsActivityLayoutID);
         vegetables = view.findViewById(R.id.vegetablesActivityLayoutID);
         shapes = view.findViewById(R.id.shapesActivityLayoutID);
+        bodyparts = view.findViewById(R.id.partsOfBodyActivityLayoutID);
         days = view.findViewById(R.id.daysActivityLayoutID);
         months = view.findViewById(R.id.monthsActivityLayoutID);
         islamicMonths = view.findViewById(R.id.islamicMonthsActivityLayoutID);
@@ -70,6 +72,12 @@ public class Dashboard extends Fragment
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(getContext(), VegetablesActivity.class));
+            }
+        });
+        bodyparts.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getContext(), PartsOfBodyActivity.class));
             }
         });
         shapes.setOnClickListener(new View.OnClickListener() {
