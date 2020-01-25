@@ -66,6 +66,10 @@ public class MainActivity extends AppCompatActivity
         BottomNavigationView navView = findViewById(R.id.nav_view);
         mTextMessage = findViewById(R.id.message);
         navView.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
+
+        FragmentTransaction tx = getSupportFragmentManager().beginTransaction();
+        tx.replace(R.id.fragment_container_ID, new Dashboard());
+        tx.commit();
     }
 
 }
