@@ -18,6 +18,7 @@ import fyp.umair.kidspreschoollearning.CalendarActivities.MonthsNamesActivity;
 import fyp.umair.kidspreschoollearning.English_Category.EnglishActivity;
 import fyp.umair.kidspreschoollearning.FruitsandVegetables.FruitsActivity;
 import fyp.umair.kidspreschoollearning.FruitsandVegetables.VegetablesActivity;
+import fyp.umair.kidspreschoollearning.Habits.HabitsDashboard;
 import fyp.umair.kidspreschoollearning.Maths_Category.MathsDashboard;
 import fyp.umair.kidspreschoollearning.R;
 import fyp.umair.kidspreschoollearning.Shapes.ShapesActivity;
@@ -98,7 +99,7 @@ public class Dashboard extends Fragment
         habits.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(getContext(), VegetablesActivity.class));
+                startActivity(new Intent(getContext(), HabitsDashboard.class));
             }
         });
         quiz.setOnClickListener(new View.OnClickListener() {
