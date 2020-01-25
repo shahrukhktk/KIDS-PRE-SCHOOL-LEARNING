@@ -11,8 +11,6 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
-import android.widget.Toast;
-
 import fyp.umair.kidspreschoollearning.Animals.AnimalsActivity;
 import fyp.umair.kidspreschoollearning.CalendarActivities.DaysNamesActivity;
 import fyp.umair.kidspreschoollearning.CalendarActivities.IslamicMonths;
@@ -20,7 +18,6 @@ import fyp.umair.kidspreschoollearning.CalendarActivities.MonthsNamesActivity;
 import fyp.umair.kidspreschoollearning.English_Category.EnglishActivity;
 import fyp.umair.kidspreschoollearning.FruitsandVegetables.FruitsActivity;
 import fyp.umair.kidspreschoollearning.FruitsandVegetables.VegetablesActivity;
-import fyp.umair.kidspreschoollearning.Habits.HabitsDashboard;
 import fyp.umair.kidspreschoollearning.HumanBodyParts.PartsOfBodyActivity;
 import fyp.umair.kidspreschoollearning.Maths_Category.MathsDashboard;
 import fyp.umair.kidspreschoollearning.QuizMarks.QuizResultDashboard;
