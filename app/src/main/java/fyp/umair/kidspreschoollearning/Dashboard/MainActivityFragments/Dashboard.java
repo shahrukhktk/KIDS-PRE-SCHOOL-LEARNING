@@ -30,7 +30,7 @@ import fyp.umair.kidspreschoollearning.Shapes.ShapesActivity;
 public class Dashboard extends Fragment
 {
     View view;
-    LinearLayout english, maths, animals, bodyparts, fruits, vegetables, shapes, days, months, islamicMonths, habits, quiz;
+    LinearLayout english, maths, animals, bodyparts, fruits, vegetables, shapes, days, months, islamicMonths, quiz;
     Toolbar toolbar;
 
     @Override
@@ -51,7 +51,6 @@ public class Dashboard extends Fragment
         days = view.findViewById(R.id.daysActivityLayoutID);
         months = view.findViewById(R.id.monthsActivityLayoutID);
         islamicMonths = view.findViewById(R.id.islamicMonthsActivityLayoutID);
-        habits = view.findViewById(R.id.habitsActivityLayoutID);
         quiz = view.findViewById(R.id.quizDashboardLayoutID);
 
         english.setOnClickListener(new View.OnClickListener() {
@@ -113,12 +112,6 @@ public class Dashboard extends Fragment
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(getContext(), IslamicMonths.class));
-            }
-        });
-        habits.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(getContext(), HabitsDashboard.class));
             }
         });
         quiz.setOnClickListener(new View.OnClickListener() {
