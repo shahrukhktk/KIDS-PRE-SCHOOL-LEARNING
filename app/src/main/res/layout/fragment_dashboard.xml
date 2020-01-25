@@ -110,6 +110,7 @@
                     android:layout_weight="0.2"/>
 
                 <LinearLayout
+                    android:id="@+id/animalsActivityLayoutID"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:orientation="vertical"
@@ -225,6 +226,7 @@
                     android:layout_weight="0.2"/>
 
                 <LinearLayout
+                    android:id="@+id/shapesActivityLayoutID"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:orientation="vertical"
@@ -276,6 +278,7 @@
                     tools:ignore="NestedWeights" />
 
                 <LinearLayout
+                    android:id="@+id/daysActivityLayoutID"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:orientation="vertical"
@@ -307,6 +310,7 @@
                     android:layout_weight="0.2" />
 
                 <LinearLayout
+                    android:id="@+id/monthsActivityLayoutID"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:orientation="vertical"
@@ -338,6 +342,7 @@
                     android:layout_weight="0.2"/>
 
                 <LinearLayout
+                    android:id="@+id/partsOfBodyActivityLayoutID"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:orientation="vertical"
@@ -389,6 +394,7 @@
                     tools:ignore="NestedWeights" />
 
                 <LinearLayout
+                    android:id="@+id/islamicMonthsActivityLayoutID"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:orientation="vertical"
@@ -420,6 +426,7 @@
                     android:layout_weight="0.2"/>
 
                 <LinearLayout
+                    android:id="@+id/habitsActivityLayoutID"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:orientation="vertical"
@@ -451,6 +458,7 @@
                     android:layout_weight="0.2"/>
 
                 <LinearLayout
+                    android:id="@+id/quizDashboardLayoutID"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:orientation="vertical"

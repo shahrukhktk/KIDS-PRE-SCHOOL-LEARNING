@@ -16,11 +16,12 @@ import fyp.umair.kidspreschoollearning.FruitsandVegetables.FruitsActivity;
 import fyp.umair.kidspreschoollearning.FruitsandVegetables.VegetablesActivity;
 import fyp.umair.kidspreschoollearning.Maths_Category.MathsDashboard;
 import fyp.umair.kidspreschoollearning.R;
+import fyp.umair.kidspreschoollearning.Shapes.ShapesActivity;
 
 public class Dashboard extends Fragment
 {
     View view;
-    LinearLayout english, maths, animals, fruits, vegetables;
+    LinearLayout english, maths, animals, fruits, vegetables, shapes, days, months, islamicMonths, habits, quiz;
     Toolbar toolbar;
 
     @Override
@@ -35,6 +36,12 @@ public class Dashboard extends Fragment
         maths = view.findViewById(R.id.mathActivityLayoutID);
         fruits = view.findViewById(R.id.fruitsActivityLayoutID);
         vegetables = view.findViewById(R.id.vegetablesActivityLayoutID);
+        shapes = view.findViewById(R.id.shapesActivityLayoutID);
+        days = view.findViewById(R.id.daysActivityLayoutID);
+        months = view.findViewById(R.id.monthsActivityLayoutID);
+        islamicMonths = view.findViewById(R.id.islamicMonthsActivityLayoutID);
+        habits = view.findViewById(R.id.habitsActivityLayoutID);
+        quiz = view.findViewById(R.id.quizDashboardLayoutID);
 
         english.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -58,6 +65,42 @@ public class Dashboard extends Fragment
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(getContext(), VegetablesActivity.class));
+            }
+        });
+        shapes.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getContext(), ShapesActivity.class));
+            }
+        });
+        days.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getContext(), EnglishActivity.class));
+            }
+        });
+        months.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getContext(), MathsDashboard.class));
+            }
+        });
+        islamicMonths.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getContext(), FruitsActivity.class));
+            }
+        });
+        habits.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getContext(), VegetablesActivity.class));
+            }
+        });
+        quiz.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getContext(), ShapesActivity.class));
             }
         });
 
