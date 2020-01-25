@@ -11,78 +11,64 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="AllowBackup,GoogleAppIndexingWarning">
-        <activity android:name=".HumanBodyParts.PartsOfBodyActivity"></activity>
+        <activity android:name=".HumanBodyParts.PartsOfBodyActivity"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".Dashboard.MainActivity"/>
         <activity
             android:name=".Habits.HabitsDashboard"
-            android:screenOrientation="portrait"
-            tools:ignore="InnerclassSeparator" />
+            android:screenOrientation="portrait" />
         <activity
             android:name=".CalendarActivities.IslamicMonths"
             android:parentActivityName=".Dashboard.MainActivity"
-            android:screenOrientation="portrait"
-            tools:ignore="InnerclassSeparator,UnusedAttribute" />
+            android:screenOrientation="portrait" />
         <activity
             android:name=".CalendarActivities.DaysNamesActivity"
             android:parentActivityName=".Dashboard.MainActivity"
-            android:screenOrientation="portrait"
-            tools:ignore="InnerclassSeparator,UnusedAttribute" />
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".CalendarActivities.MonthsNamesActivity"
             android:parentActivityName=".Dashboard.MainActivity"
-            android:screenOrientation="portrait"
-            tools:ignore="InnerclassSeparator,UnusedAttribute" />
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".Shapes.ShapesActivity"
             android:parentActivityName=".Dashboard.MainActivity"
-            android:screenOrientation="portrait"
-            tools:ignore="InnerclassSeparator,UnusedAttribute" />
+            android:screenOrientation="portrait" />
         <activity
             android:name=".FruitsandVegetables.VegetablesActivity"
             android:parentActivityName=".Dashboard.MainActivity"
-            android:screenOrientation="portrait"
-            tools:ignore="InnerclassSeparator,UnusedAttribute" />
+            android:screenOrientation="portrait" />
         <activity
             android:name=".FruitsandVegetables.FruitsActivity"
             android:parentActivityName=".Dashboard.MainActivity"
-            android:screenOrientation="portrait"
-            tools:ignore="InnerclassSeparator,UnusedAttribute" />
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".Dashboard.MainActivity"
             android:label="@string/title_activity_main"
-            android:screenOrientation="portrait"
-            tools:ignore="InnerclassSeparator" />
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Maths_Category.Tables.MathTables"
-            android:screenOrientation="portrait"
-            tools:ignore="InnerclassSeparator,UnusedAttribute" />
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Maths_Category.Subtraction.MathSubtraction"
-            android:screenOrientation="portrait"
-            tools:ignore="InnerclassSeparator,UnusedAttribute" />
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Maths_Category.Counting.MathCounting"
-            android:screenOrientation="portrait"
-            tools:ignore="InnerclassSeparator,UnusedAttribute" />
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Maths_Category.Addition.MathAddition"
-            android:screenOrientation="portrait"
-            tools:ignore="InnerclassSeparator,UnusedAttribute" />
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Maths_Category.MathsDashboard"
-            android:screenOrientation="portrait"
-            tools:ignore="InnerclassSeparator" />
+            android:screenOrientation="portrait" />
         <activity
             android:name=".English_Category.TraceLetters_Activity"
-            android:screenOrientation="portrait"
-            tools:ignore="InnerclassSeparator" />
+            android:screenOrientation="portrait" />
         <activity
             android:name=".English_Category.EnglishAlphabets_Activity"
-            android:screenOrientation="portrait"
-            tools:ignore="InnerclassSeparator" />
+            android:screenOrientation="portrait" />
         <activity
             android:name=".English_Category.EnglishActivity"
-            android:screenOrientation="portrait"
-            tools:ignore="InnerclassSeparator" />
+            android:screenOrientation="portrait" />
         <activity
             android:name=".SplashScreen"
             android:screenOrientation="portrait">
