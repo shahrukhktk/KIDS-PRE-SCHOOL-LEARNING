@@ -23,17 +23,17 @@ public class QuizResultDashboard extends AppCompatActivity {
         toolbar.setTitle("Quiz Result");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        english = findViewById(R.id.englishActivityLayoutID);
-        maths = findViewById(R.id.mathActivityLayoutID);
-        animals = findViewById(R.id.animalsActivityLayoutID);
-        fruits = findViewById(R.id.fruitsActivityLayoutID);
-        vegetables = findViewById(R.id.vegetablesActivityLayoutID);
-        shapes = findViewById(R.id.shapesActivityLayoutID);
-        bodyparts = findViewById(R.id.partsOfBodyActivityLayoutID);
-        days = findViewById(R.id.daysActivityLayoutID);
-        months = findViewById(R.id.monthsActivityLayoutID);
-        islamicMonths = findViewById(R.id.islamicMonthsActivityLayoutID);
-        habits = findViewById(R.id.habitsActivityLayoutID);
+        english = findViewById(R.id.englishmarksActivityLayoutID);
+        maths = findViewById(R.id.mathmarksActivityLayoutID);
+        animals = findViewById(R.id.animalsmarksActivityLayoutID);
+        fruits = findViewById(R.id.fruitsmarksActivityLayoutID);
+        vegetables = findViewById(R.id.vegetablesmarksActivityLayoutID);
+        shapes = findViewById(R.id.shapesmarksActivityLayoutID);
+        bodyparts = findViewById(R.id.partsOfBodymarksActivityLayoutID);
+        days = findViewById(R.id.daysmarksActivityLayoutID);
+        months = findViewById(R.id.monthsmarksActivityLayoutID);
+        islamicMonths = findViewById(R.id.islamicMonthsmarksActivityLayoutID);
+        habits = findViewById(R.id.habitsmarksActivityLayoutID);
 
         english.setOnClickListener(new View.OnClickListener() {
             @Override

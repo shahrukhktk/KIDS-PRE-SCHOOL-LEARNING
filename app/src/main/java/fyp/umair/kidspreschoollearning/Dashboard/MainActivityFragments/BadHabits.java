@@ -17,7 +17,7 @@ public class BadHabits extends Fragment {
     {
         View view = inflater.inflate(R.layout.fragment_badhabits, container, false);
 
-        Toolbar toolbar = (Toolbar) view.findViewById(R.id.dashboard_toolbar_Id);
+        Toolbar toolbar = (Toolbar) view.findViewById(R.id.badHabits_toolbar_Id);
         toolbar.setTitle("Bad Habits");
         return view;
     }

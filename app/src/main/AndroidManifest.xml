@@ -11,9 +11,13 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="AllowBackup,GoogleAppIndexingWarning">
-        <activity android:name=".Quizzes.QuizDashboard"></activity>
-        <activity android:name=".Quizzes.StartQuizActivity" />
-        <activity android:name=".QuizMarks.MarksList" />
+        <activity android:name=".Quizzes.QuizDashboard"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Quizzes.StartQuizActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".QuizMarks.MarksList"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".QuizMarks.QuizResultDashboard"/>
         <activity
             android:name=".Animals.AnimalsActivity"
             android:parentActivityName=".Dashboard.MainActivity"
@@ -25,9 +29,6 @@
         <activity
             android:name=".HumanBodyParts.PartsOfBodyActivity"
             android:parentActivityName=".Dashboard.MainActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".Habits.HabitsDashboard"
             android:screenOrientation="portrait" />
         <activity
             android:name=".CalendarActivities.IslamicMonths"
