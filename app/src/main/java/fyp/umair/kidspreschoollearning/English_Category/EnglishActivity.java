@@ -5,6 +5,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
+
+import fyp.umair.kidspreschoollearning.Dashboard.MainActivity;
 import fyp.umair.kidspreschoollearning.Dashboard.MainActivityFragments.Dashboard;
 import fyp.umair.kidspreschoollearning.R;
 
@@ -40,6 +42,6 @@ public class EnglishActivity extends AppCompatActivity
 
     public void LaunchDashboard(View view)
     {
-        startActivity(new Intent(getApplicationContext(), Dashboard.class));
+        startActivity(new Intent(getApplicationContext(), MainActivity.class));
     }
 }

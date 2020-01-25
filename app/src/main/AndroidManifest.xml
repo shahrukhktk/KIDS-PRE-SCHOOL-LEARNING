@@ -11,18 +11,25 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="AllowBackup,GoogleAppIndexingWarning">
-        <activity android:name=".CalendarActivities.IslamicMonths"
+
+        <activity android:name=".Habits.HabitsDashboard"
+            android:screenOrientation="portrait"
+            tools:ignore="InnerclassSeparator" />
+        <activity
+            android:name=".CalendarActivities.IslamicMonths"
             android:parentActivityName=".Dashboard.MainActivity"
             android:screenOrientation="portrait"
             tools:ignore="InnerclassSeparator,UnusedAttribute" />
-        <activity android:name=".CalendarActivities.DaysNamesActivity"
+        <activity
+            android:name=".CalendarActivities.DaysNamesActivity"
             android:parentActivityName=".Dashboard.MainActivity"
             android:screenOrientation="portrait"
-            tools:ignore="InnerclassSeparator,UnusedAttribute"/>
-        <activity android:name=".CalendarActivities.MonthsNamesActivity"
+            tools:ignore="InnerclassSeparator,UnusedAttribute" />
+        <activity
+            android:name=".CalendarActivities.MonthsNamesActivity"
             android:parentActivityName=".Dashboard.MainActivity"
             android:screenOrientation="portrait"
-            tools:ignore="InnerclassSeparator,UnusedAttribute"/>
+            tools:ignore="InnerclassSeparator,UnusedAttribute" />
         <activity
             android:name=".Shapes.ShapesActivity"
             android:parentActivityName=".Dashboard.MainActivity"
@@ -45,22 +52,18 @@
             tools:ignore="InnerclassSeparator" />
         <activity
             android:name=".Maths_Category.Tables.MathTables"
-            android:parentActivityName=".Maths_Category.MathsDashboard"
             android:screenOrientation="portrait"
             tools:ignore="InnerclassSeparator,UnusedAttribute" />
         <activity
             android:name=".Maths_Category.Subtraction.MathSubtraction"
-            android:parentActivityName=".Maths_Category.MathsDashboard"
             android:screenOrientation="portrait"
             tools:ignore="InnerclassSeparator,UnusedAttribute" />
         <activity
             android:name=".Maths_Category.Counting.MathCounting"
-            android:parentActivityName=".Maths_Category.MathsDashboard"
             android:screenOrientation="portrait"
             tools:ignore="InnerclassSeparator,UnusedAttribute" />
         <activity
             android:name=".Maths_Category.Addition.MathAddition"
-            android:parentActivityName=".Maths_Category.MathsDashboard"
             android:screenOrientation="portrait"
             tools:ignore="InnerclassSeparator,UnusedAttribute" />
         <activity
@@ -77,7 +80,6 @@
             tools:ignore="InnerclassSeparator" />
         <activity
             android:name=".English_Category.EnglishActivity"
-            android:parentActivityName=".Dashboard.MainActivity"
             android:screenOrientation="portrait"
             tools:ignore="InnerclassSeparator" />
         <activity

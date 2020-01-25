@@ -1,4 +1,4 @@
-package fyp.umair.kidspreschoollearning.Maths_Category.Addition;
+package fyp.umair.kidspreschoollearning.Habits;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,17 +7,14 @@ import android.os.Bundle;
 import android.view.View;
 
 import fyp.umair.kidspreschoollearning.Dashboard.MainActivity;
-import fyp.umair.kidspreschoollearning.Dashboard.MainActivityFragments.Dashboard;
 import fyp.umair.kidspreschoollearning.R;
 
-public class MathAddition extends AppCompatActivity
-{
+public class HabitsDashboard extends AppCompatActivity {
 
     @Override
-    protected void onCreate(Bundle savedInstanceState)
-    {
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_math_addition);
+        setContentView(R.layout.activity_habits_dashboard);
     }
 
     public void LaunchDashboard(View view)
