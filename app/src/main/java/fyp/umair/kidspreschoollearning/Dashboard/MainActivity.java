@@ -15,8 +15,7 @@ import android.widget.TextView;
 
 import fyp.umair.kidspreschoollearning.Dashboard.MainActivityFragments.Dashboard;
 import fyp.umair.kidspreschoollearning.Dashboard.MainActivityFragments.GoodHabits;
-import fyp.umair.kidspreschoollearning.Dashboard.MainActivityFragments.Prayers;
-import fyp.umair.kidspreschoollearning.Maths_Category.Counting.CountingFragments.NumEight;
+import fyp.umair.kidspreschoollearning.Dashboard.MainActivityFragments.BadHabits;
 import fyp.umair.kidspreschoollearning.R;
 
 public class MainActivity extends AppCompatActivity
@@ -47,9 +46,9 @@ public class MainActivity extends AppCompatActivity
                     fragmentTransactionDashbaord.commit();
                     return true;
                 }
-                case R.id.navigation_prayers:
+                case R.id.navigation_badhabits:
                 {
-                    Fragment fragmentPrayers = new Prayers();
+                    Fragment fragmentPrayers = new BadHabits();
                     FragmentManager fragmentManagerPrayers = getSupportFragmentManager();
                     FragmentTransaction fragmentTransactionPrayers = fragmentManagerPrayers.beginTransaction();
                     fragmentTransactionPrayers.replace(R.id.fragment_container_ID, fragmentPrayers);

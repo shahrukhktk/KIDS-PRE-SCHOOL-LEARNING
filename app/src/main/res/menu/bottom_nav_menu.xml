@@ -11,7 +11,7 @@
         android:title="@string/title_dashboard" />
 
     <item
-        android:id="@+id/navigation_prayers"
-        android:title="@string/prayers" />
+        android:id="@+id/navigation_badhabits"
+        android:title="@string/badhabits" />
 
 </menu>
