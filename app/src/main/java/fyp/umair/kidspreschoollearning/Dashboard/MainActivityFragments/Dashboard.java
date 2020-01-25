@@ -11,6 +11,10 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
+
+import fyp.umair.kidspreschoollearning.CalendarActivities.DaysNamesActivity;
+import fyp.umair.kidspreschoollearning.CalendarActivities.IslamicMonths;
+import fyp.umair.kidspreschoollearning.CalendarActivities.MonthsNamesActivity;
 import fyp.umair.kidspreschoollearning.English_Category.EnglishActivity;
 import fyp.umair.kidspreschoollearning.FruitsandVegetables.FruitsActivity;
 import fyp.umair.kidspreschoollearning.FruitsandVegetables.VegetablesActivity;
@@ -76,19 +80,19 @@ public class Dashboard extends Fragment
         days.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(getContext(), EnglishActivity.class));
+                startActivity(new Intent(getContext(), DaysNamesActivity.class));
             }
         });
         months.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(getContext(), MathsDashboard.class));
+                startActivity(new Intent(getContext(), MonthsNamesActivity.class));
             }
         });
         islamicMonths.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(getContext(), FruitsActivity.class));
+                startActivity(new Intent(getContext(), IslamicMonths.class));
             }
         });
         habits.setOnClickListener(new View.OnClickListener() {
