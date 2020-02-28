@@ -180,42 +180,52 @@ public class Dashboard extends Fragment
     public void speakMaths()
     {
         mTTS.speak("Maths", TextToSpeech.QUEUE_FLUSH, null);
+        mTTS.setSpeechRate(3.5f);
     }
     public void speakAnimals()
     {
         mTTS.speak("Animals", TextToSpeech.QUEUE_FLUSH, null);
+        mTTS.setSpeechRate(3.5f);
     }
     public void speakFruits()
     {
         mTTS.speak("Fruits", TextToSpeech.QUEUE_FLUSH, null);
+        mTTS.setSpeechRate(3.5f);
     }
     public void speakVegetables()
     {
         mTTS.speak("Vegetables", TextToSpeech.QUEUE_FLUSH, null);
+        mTTS.setSpeechRate(3.5f);
     }
     public void speakBodyParts()
     {
         mTTS.speak("Parts Of Body", TextToSpeech.QUEUE_FLUSH, null);
+        mTTS.setSpeechRate(3.5f);
     }
     public void speakShapes()
     {
         mTTS.speak("Shapes", TextToSpeech.QUEUE_FLUSH, null);
+        mTTS.setSpeechRate(3.5f);
     }
     public void speakDays()
     {
         mTTS.speak("Days of the weak", TextToSpeech.QUEUE_FLUSH, null);
+        mTTS.setSpeechRate(3.5f);
     }
     public void speakMonths()
     {
         mTTS.speak("Months of the year", TextToSpeech.QUEUE_FLUSH, null);
+        mTTS.setSpeechRate(3.5f);
     }
     public void speakIslamicMonths()
     {
         mTTS.speak("Islamic Months of the year", TextToSpeech.QUEUE_FLUSH, null);
+        mTTS.setSpeechRate(3.5f);
     }
     public void speakQuiz()
     {
         mTTS.speak("Quiz", TextToSpeech.QUEUE_FLUSH, null);
+        mTTS.setSpeechRate(3.5f);
     }
 
 
