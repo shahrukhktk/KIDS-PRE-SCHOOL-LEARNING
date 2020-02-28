@@ -4,10 +4,27 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.os.Bundle;
 import android.speech.tts.TextToSpeech;
+import android.view.View;
 import android.widget.LinearLayout;
+import android.widget.TabHost;
+import android.widget.Toast;
 
+import org.w3c.dom.Text;
+
+import java.util.Locale;
+
+import fyp.umair.kidspreschoollearning.Animals.AnimalsActivity;
+import fyp.umair.kidspreschoollearning.CalendarActivities.DaysNamesActivity;
+import fyp.umair.kidspreschoollearning.CalendarActivities.IslamicMonths;
+import fyp.umair.kidspreschoollearning.CalendarActivities.MonthsNamesActivity;
+import fyp.umair.kidspreschoollearning.English_Category.EnglishActivity;
+import fyp.umair.kidspreschoollearning.FruitsandVegetables.FruitsActivity;
+import fyp.umair.kidspreschoollearning.FruitsandVegetables.VegetablesActivity;
+import fyp.umair.kidspreschoollearning.HumanBodyParts.PartsOfBodyActivity;
+import fyp.umair.kidspreschoollearning.Maths_Category.MathsDashboard;
 import fyp.umair.kidspreschoollearning.R;
 
 public class ShapesActivity extends AppCompatActivity
@@ -34,6 +51,92 @@ public class ShapesActivity extends AppCompatActivity
         star = findViewById(R.id.starshape_id);
         crescent = findViewById(R.id.cresentshape_id);
         cross = findViewById(R.id.crossshape_id);
+
+        textToSpeech = new TextToSpeech(this, new TextToSpeech.OnInitListener() {
+            @Override
+            public void onInit(int status) {
+                if(status == TextToSpeech.SUCCESS)
+                {
+                    int langResult = textToSpeech.setLanguage(Locale.US);
+                    if(langResult == TextToSpeech.LANG_NOT_SUPPORTED || langResult == TextToSpeech.LANG_MISSING_DATA)
+                    {
+                        Toast.makeText(getApplicationContext(), "Language Not Supported", Toast.LENGTH_SHORT).show();
+                    }
+                    else
+                    {
+                        square.setOnClickListener(new View.OnClickListener() {
+                            @Override
+                            public void onClick(View view) {
+                                speakSquare();
+                                return;
+                            }
+                        });
+                        rectangle.setOnClickListener(new View.OnClickListener() {
+                            @Override
+                            public void onClick(View view) {
+                                speakRectangle();
+                                return;
+                            }
+                        });
+                        triangle.setOnClickListener(new View.OnClickListener() {
+                            @Override
+                            public void onClick(View view) {
+                                speakTriangle();
+                                return;
+                            }
+                        });
+                        circle.setOnClickListener(new View.OnClickListener() {
+                            @Override
+                            public void onClick(View view) {
+                                speakCircle();
+                                return;
+                            }
+                        });
+                        oval.setOnClickListener(new View.OnClickListener() {
+                            @Override
+                            public void onClick(View view) {
+                                speakOval();
+                                return;
+                            }
+                        });
+                        heart.setOnClickListener(new View.OnClickListener() {
+                            @Override
+                            public void onClick(View view) {
+                                speakHeart();
+                                return;
+                            }
+                        });
+                        star.setOnClickListener(new View.OnClickListener() {
+                            @Override
+                            public void onClick(View view) {
+                                speakStar();
+                                return;
+                            }
+                        });
+                        crescent.setOnClickListener(new View.OnClickListener() {
+                            @Override
+                            public void onClick(View view) {
+                                speakCrescent();
+                                return;
+                            }
+                        });
+                        cross.setOnClickListener(new View.OnClickListener() {
+                            @Override
+                            public void onClick(View view) {
+                                speakCross();
+                                return;
+                            }
+                        });
+
+
+                    }
+                }
+                else
+                {
+                    Toast.makeText(getApplicationContext(), "Initializatin Failed", Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
 
     }
 
