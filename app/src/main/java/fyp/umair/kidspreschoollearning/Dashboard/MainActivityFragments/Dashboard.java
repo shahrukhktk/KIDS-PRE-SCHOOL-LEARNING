@@ -28,6 +28,7 @@ import fyp.umair.kidspreschoollearning.FruitsandVegetables.VegetablesActivity;
 import fyp.umair.kidspreschoollearning.HumanBodyParts.PartsOfBodyActivity;
 import fyp.umair.kidspreschoollearning.Maths_Category.MathsDashboard;
 import fyp.umair.kidspreschoollearning.QuizMarks.QuizResultDashboard;
+import fyp.umair.kidspreschoollearning.Quizzes.QuizDashboard;
 import fyp.umair.kidspreschoollearning.R;
 import fyp.umair.kidspreschoollearning.Shapes.ShapesActivity;
 
@@ -156,7 +157,7 @@ public class Dashboard extends Fragment
                             @Override
                             public void onClick(View view) {
                                 speakQuiz();
-                                startActivity(new Intent(getContext(), ShapesActivity.class));
+                                startActivity(new Intent(getContext(), QuizDashboard.class));
                                 return;
                             }
                         });

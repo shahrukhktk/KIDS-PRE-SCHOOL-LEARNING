@@ -13,85 +13,87 @@ import fyp.umair.kidspreschoollearning.R;
 
 public class QuizDashboard extends AppCompatActivity {
 
-    private LinearLayout english, maths, animals, bodyparts, fruits, vegetables, shapes, days, months, islamicMonths, habits;
+    private LinearLayout english_quiz, maths_quiz, animals_quiz, bodyparts_quiz, fruits_quiz, vegetables_quiz, shapes_quiz, days_quiz, months_quiz,
+            islamicMonths_quiz, habits_quiz;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_quiz_dashboard);
-        english = findViewById(R.id.englishQuizActivityLayoutID);
-        maths = findViewById(R.id.mathQuizActivityLayoutID);
-        animals = findViewById(R.id.animalsQuizActivityLayoutID);
-        fruits = findViewById(R.id.fruitsQuizActivityLayoutID);
-        vegetables = findViewById(R.id.vegetablesQuizActivityLayoutID);
-        shapes = findViewById(R.id.shapesQuizActivityLayoutID);
-        bodyparts = findViewById(R.id.partsOfBodyQuizActivityLayoutID);
-        days = findViewById(R.id.daysQuizActivityLayoutID);
-        months = findViewById(R.id.monthsQuizActivityLayoutID);
-        islamicMonths = findViewById(R.id.islamicMonthsQuizActivityLayoutID);
-        habits = findViewById(R.id.habitsQuizActivityLayoutID);
 
-        english.setOnClickListener(new View.OnClickListener() {
+        english_quiz = findViewById(R.id.englishQuizActivityLayoutID);
+        maths_quiz = findViewById(R.id.mathQuizActivityLayoutID);
+        animals_quiz = findViewById(R.id.animalsQuizActivityLayoutID);
+        fruits_quiz = findViewById(R.id.fruitsQuizActivityLayoutID);
+        vegetables_quiz = findViewById(R.id.vegetablesQuizActivityLayoutID);
+        shapes_quiz = findViewById(R.id.shapesQuizActivityLayoutID);
+        bodyparts_quiz = findViewById(R.id.partsOfBodyQuizActivityLayoutID);
+        days_quiz = findViewById(R.id.daysQuizActivityLayoutID);
+        months_quiz = findViewById(R.id.monthsQuizActivityLayoutID);
+        islamicMonths_quiz = findViewById(R.id.islamicMonthsQuizActivityLayoutID);
+        habits_quiz = findViewById(R.id.habitsQuizActivityLayoutID);
+
+        english_quiz.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(getApplicationContext(), MarksList.class));
             }
         });
-        maths.setOnClickListener(new View.OnClickListener() {
+        maths_quiz.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(getApplicationContext(), MarksList.class));
             }
         });
-        animals.setOnClickListener(new View.OnClickListener() {
+        animals_quiz.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(getApplicationContext(), MarksList.class));
             }
         });
-        fruits.setOnClickListener(new View.OnClickListener() {
+        fruits_quiz.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(getApplicationContext(), MarksList.class));
             }
         });
-        vegetables.setOnClickListener(new View.OnClickListener() {
+        vegetables_quiz.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(getApplicationContext(), MarksList.class));
             }
         });
-        shapes.setOnClickListener(new View.OnClickListener() {
+        shapes_quiz.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(getApplicationContext(), MarksList.class));
             }
         });
-        bodyparts.setOnClickListener(new View.OnClickListener() {
+        bodyparts_quiz.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(getApplicationContext(), MarksList.class));
             }
         });
-        days.setOnClickListener(new View.OnClickListener() {
+        days_quiz.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(getApplicationContext(), MarksList.class));
             }
         });
-        months.setOnClickListener(new View.OnClickListener() {
+        months_quiz.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(getApplicationContext(), MarksList.class));
             }
         });
-        islamicMonths.setOnClickListener(new View.OnClickListener() {
+        islamicMonths_quiz.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(getApplicationContext(), MarksList.class));
             }
         });
-        habits.setOnClickListener(new View.OnClickListener() {
+        habits_quiz.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(getApplicationContext(), MarksList.class));
