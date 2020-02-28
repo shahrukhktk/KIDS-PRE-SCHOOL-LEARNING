@@ -143,42 +143,42 @@ public class ShapesActivity extends AppCompatActivity
     public void speakSquare()
     {
         textToSpeech.speak("Square", TextToSpeech.QUEUE_FLUSH, null);
-        textToSpeech.setSpeechRate(1.5f);
+        textToSpeech.setSpeechRate(0.5f);
     }
     public void speakRectangle()
     {
         textToSpeech.speak("Rectangle", TextToSpeech.QUEUE_FLUSH, null);
-        textToSpeech.setSpeechRate(1.5f);
+        textToSpeech.setSpeechRate(0.5f);
     }
     public void speakTriangle()
     {
         textToSpeech.speak("Triangle", TextToSpeech.QUEUE_FLUSH, null);
-        textToSpeech.setSpeechRate(1.5f);
+        textToSpeech.setSpeechRate(0.5f);
     }
     public void speakCircle()
     {
         textToSpeech.speak("Circle", TextToSpeech.QUEUE_FLUSH, null);
-        textToSpeech.setSpeechRate(1.5f);
+        textToSpeech.setSpeechRate(0.5f);
     }
     public void speakOval()
     {
         textToSpeech.speak("Oval", TextToSpeech.QUEUE_FLUSH, null);
-        textToSpeech.setSpeechRate(1.5f);
+        textToSpeech.setSpeechRate(0.5f);
     }
     public void speakHeart()
     {
         textToSpeech.speak("Heart", TextToSpeech.QUEUE_FLUSH, null);
-        textToSpeech.setSpeechRate(1.5f);
+        textToSpeech.setSpeechRate(0.5f);
     }
     public void speakStar()
     {
         textToSpeech.speak("Star", TextToSpeech.QUEUE_FLUSH, null);
-        textToSpeech.setSpeechRate(1.5f);
+        textToSpeech.setSpeechRate(0.5f);
     }
     public void speakCrescent()
     {
         textToSpeech.speak("Crescent", TextToSpeech.QUEUE_FLUSH, null);
-        textToSpeech.setSpeechRate(1.5f);
+        textToSpeech.setSpeechRate(0.5f);
     }
     public void speakCross()
     {
