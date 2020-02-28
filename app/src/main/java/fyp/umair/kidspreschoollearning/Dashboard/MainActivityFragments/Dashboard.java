@@ -36,7 +36,7 @@ public class Dashboard extends Fragment
     private TextToSpeech mTTS;
 
     View view;
-    LinearLayout english, maths, animals, bodyparts, fruits, vegetables, shapes, days, months, islamicMonths, quiz;
+    private LinearLayout english, maths, animals, bodyparts, fruits, vegetables, shapes, days, months, islamicMonths, quiz;
     Toolbar toolbar;
 
     @Override
