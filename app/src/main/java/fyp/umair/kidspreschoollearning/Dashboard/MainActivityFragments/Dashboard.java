@@ -175,6 +175,7 @@ public class Dashboard extends Fragment
     public void speakEnglishAlphabets()
     {
         mTTS.speak("English Alphabets", TextToSpeech.QUEUE_FLUSH, null);
+        mTTS.setSpeechRate(3.5f);
     }
     public void speakMaths()
     {
