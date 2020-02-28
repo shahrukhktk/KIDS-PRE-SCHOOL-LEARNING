@@ -1,6 +1,7 @@
 package fyp.umair.kidspreschoollearning.Dashboard.MainActivityFragments;
 
 import android.content.Intent;
+import android.net.wifi.hotspot2.pps.HomeSp;
 import android.os.Bundle;
 import androidx.appcompat.widget.Toolbar;
 import androidx.fragment.app.Fragment;
@@ -13,6 +14,10 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
+import android.widget.Toast;
+
+import java.util.Locale;
+
 import fyp.umair.kidspreschoollearning.Animals.AnimalsActivity;
 import fyp.umair.kidspreschoollearning.CalendarActivities.DaysNamesActivity;
 import fyp.umair.kidspreschoollearning.CalendarActivities.IslamicMonths;
@@ -29,6 +34,7 @@ import fyp.umair.kidspreschoollearning.Shapes.ShapesActivity;
 public class Dashboard extends Fragment
 {
     private TextToSpeech mTTS;
+
     View view;
     LinearLayout english, maths, animals, bodyparts, fruits, vegetables, shapes, days, months, islamicMonths, quiz;
     Toolbar toolbar;
@@ -53,12 +59,36 @@ public class Dashboard extends Fragment
         islamicMonths = view.findViewById(R.id.islamicMonthsActivityLayoutID);
         quiz = view.findViewById(R.id.quizDashboardLayoutID);
 
-        english.setOnClickListener(new View.OnClickListener() {
+        mTTS = new TextToSpeech(getContext(), new TextToSpeech.OnInitListener() {
             @Override
-            public void onClick(View view) {
-                startActivity(new Intent(getContext(), EnglishActivity.class));
+            public void onInit(int status) {
+                if(status == TextToSpeech.SUCCESS)
+                {
+                    int langResult = mTTS.setLanguage(Locale.US);
+                    if(langResult == TextToSpeech.LANG_NOT_SUPPORTED || langResult == TextToSpeech.LANG_MISSING_DATA)
+                    {
+                        Toast.makeText(getContext(), "Language Not Supported", Toast.LENGTH_SHORT).show();
+                    }
+                    else
+                    {
+                        english.setOnClickListener(new View.OnClickListener() {
+                            @Override
+                            public void onClick(View view) {
+                                speakEnglishAlphabets();
+                                startActivity(new Intent(getContext(), EnglishActivity.class));
+                                return;
+                            }
+                        });
+
+                    }
+                }
+                else
+                {
+                    Toast.makeText(getContext(), "Initializatin Failed", Toast.LENGTH_SHORT).show();
+                }
             }
         });
+
         maths.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -122,6 +152,11 @@ public class Dashboard extends Fragment
         });
 
         return view;
+    }
+
+    public void speakEnglishAlphabets()
+    {
+        mTTS.speak("English Alphabets", TextToSpeech.QUEUE_FLUSH, null);
     }
 
     @Override
