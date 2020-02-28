@@ -79,75 +79,91 @@ public class Dashboard extends Fragment
                                 return;
                             }
                         });
+                        maths.setOnClickListener(new View.OnClickListener() {
+                            @Override
+                            public void onClick(View view) {
+                                speakMaths();
+                                startActivity(new Intent(getContext(), MathsDashboard.class));
+                                return;
+                            }
+                        });
+                        animals.setOnClickListener(new View.OnClickListener() {
+                            @Override
+                            public void onClick(View view) {
+                                speakAnimals();
+                                startActivity(new Intent(getContext(), AnimalsActivity.class));
+                                return;
+                            }
+                        });
 
+                        fruits.setOnClickListener(new View.OnClickListener() {
+                            @Override
+                            public void onClick(View view) {
+                                speakFruits();
+                                startActivity(new Intent(getContext(), FruitsActivity.class));
+                                return;
+                            }
+                        });
+                        vegetables.setOnClickListener(new View.OnClickListener() {
+                            @Override
+                            public void onClick(View view) {
+                                startActivity(new Intent(getContext(), VegetablesActivity.class));
+                            }
+                        });
+                        bodyparts.setOnClickListener(new View.OnClickListener() {
+                            @Override
+                            public void onClick(View view) {
+                                speakBodyParts();
+                                startActivity(new Intent(getContext(), PartsOfBodyActivity.class));
+                                return;
+                            }
+                        });
+                        shapes.setOnClickListener(new View.OnClickListener() {
+                            @Override
+                            public void onClick(View view) {
+                                speakShapes();
+                                startActivity(new Intent(getContext(), ShapesActivity.class));
+                                return;
+                            }
+                        });
+                        days.setOnClickListener(new View.OnClickListener() {
+                            @Override
+                            public void onClick(View view) {
+                                speakDays();
+                                startActivity(new Intent(getContext(), DaysNamesActivity.class));
+                                return;
+                            }
+                        });
+                        months.setOnClickListener(new View.OnClickListener() {
+                            @Override
+                            public void onClick(View view) {
+                                speakMonths();
+                                startActivity(new Intent(getContext(), MonthsNamesActivity.class));
+                                return;
+                            }
+                        });
+                        islamicMonths.setOnClickListener(new View.OnClickListener() {
+                            @Override
+                            public void onClick(View view) {
+                                speakIslamicMonths();
+                                startActivity(new Intent(getContext(), IslamicMonths.class));
+                                return;
+                            }
+                        });
+                        quiz.setOnClickListener(new View.OnClickListener() {
+                            @Override
+                            public void onClick(View view) {
+                                speakQuiz();
+                                startActivity(new Intent(getContext(), ShapesActivity.class));
+                                return;
+                            }
+                        });
                     }
                 }
                 else
                 {
                     Toast.makeText(getContext(), "Initializatin Failed", Toast.LENGTH_SHORT).show();
                 }
-            }
-        });
-
-        maths.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(getContext(), MathsDashboard.class));
-            }
-        });
-        animals.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(getContext(), AnimalsActivity.class));
-            }
-        });
-
-        fruits.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(getContext(), FruitsActivity.class));
-            }
-        });
-        vegetables.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(getContext(), VegetablesActivity.class));
-            }
-        });
-        bodyparts.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(getContext(), PartsOfBodyActivity.class));
-            }
-        });
-        shapes.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(getContext(), ShapesActivity.class));
-            }
-        });
-        days.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(getContext(), DaysNamesActivity.class));
-            }
-        });
-        months.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(getContext(), MonthsNamesActivity.class));
-            }
-        });
-        islamicMonths.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(getContext(), IslamicMonths.class));
-            }
-        });
-        quiz.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(getContext(), ShapesActivity.class));
             }
         });
 
