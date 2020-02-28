@@ -183,7 +183,7 @@ public class ShapesActivity extends AppCompatActivity
     public void speakCross()
     {
         textToSpeech.speak("Cross", TextToSpeech.QUEUE_FLUSH, null);
-        textToSpeech.setSpeechRate(1.5f);
+        textToSpeech.setSpeechRate(0.5f);
     }
 
 }
