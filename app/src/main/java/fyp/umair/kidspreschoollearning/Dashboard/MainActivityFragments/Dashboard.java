@@ -107,7 +107,9 @@ public class Dashboard extends Fragment
                         vegetables.setOnClickListener(new View.OnClickListener() {
                             @Override
                             public void onClick(View view) {
+                                speakVegetables();
                                 startActivity(new Intent(getContext(), VegetablesActivity.class));
+                                return;
                             }
                         });
                         bodyparts.setOnClickListener(new View.OnClickListener() {
@@ -174,6 +176,47 @@ public class Dashboard extends Fragment
     {
         mTTS.speak("English Alphabets", TextToSpeech.QUEUE_FLUSH, null);
     }
+    public void speakMaths()
+    {
+        mTTS.speak("Maths", TextToSpeech.QUEUE_FLUSH, null);
+    }
+    public void speakAnimals()
+    {
+        mTTS.speak("Animals", TextToSpeech.QUEUE_FLUSH, null);
+    }
+    public void speakFruits()
+    {
+        mTTS.speak("Fruits", TextToSpeech.QUEUE_FLUSH, null);
+    }
+    public void speakVegetables()
+    {
+        mTTS.speak("Vegetables", TextToSpeech.QUEUE_FLUSH, null);
+    }
+    public void speakBodyParts()
+    {
+        mTTS.speak("Parts Of Body", TextToSpeech.QUEUE_FLUSH, null);
+    }
+    public void speakShapes()
+    {
+        mTTS.speak("Shapes", TextToSpeech.QUEUE_FLUSH, null);
+    }
+    public void speakDays()
+    {
+        mTTS.speak("Days of the weak", TextToSpeech.QUEUE_FLUSH, null);
+    }
+    public void speakMonths()
+    {
+        mTTS.speak("Months of the year", TextToSpeech.QUEUE_FLUSH, null);
+    }
+    public void speakIslamicMonths()
+    {
+        mTTS.speak("Islamic Months of the year", TextToSpeech.QUEUE_FLUSH, null);
+    }
+    public void speakQuiz()
+    {
+        mTTS.speak("Quiz", TextToSpeech.QUEUE_FLUSH, null);
+    }
+
 
     @Override
     public void onCreateOptionsMenu(Menu menu, MenuInflater inflater)
