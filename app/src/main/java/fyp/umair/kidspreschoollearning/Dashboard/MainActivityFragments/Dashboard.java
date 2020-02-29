@@ -175,43 +175,43 @@ public class Dashboard extends Fragment
 
     public void speakEnglishAlphabets()
     {
-        mTTS.speak("English Alphabets", TextToSpeech.QUEUE_FLUSH, null);
-        mTTS.setSpeechRate(1.5f);
+        mTTS.speak("English Subject", TextToSpeech.QUEUE_FLUSH, null);
+        mTTS.setSpeechRate(1.0f);
     }
     public void speakMaths()
     {
-        mTTS.speak("Maths", TextToSpeech.QUEUE_FLUSH, null);
-        mTTS.setSpeechRate(1.5f);
+        mTTS.speak("Maths Subject", TextToSpeech.QUEUE_FLUSH, null);
+        mTTS.setSpeechRate(1.0f);
     }
     public void speakAnimals()
     {
-        mTTS.speak("Animals", TextToSpeech.QUEUE_FLUSH, null);
-        mTTS.setSpeechRate(1.5f);
+        mTTS.speak("Learn about Animals", TextToSpeech.QUEUE_FLUSH, null);
+        mTTS.setSpeechRate(1.0f);
     }
     public void speakFruits()
     {
-        mTTS.speak("Fruits", TextToSpeech.QUEUE_FLUSH, null);
-        mTTS.setSpeechRate(1.5f);
+        mTTS.speak("Learn about Fruits", TextToSpeech.QUEUE_FLUSH, null);
+        mTTS.setSpeechRate(1.0f);
     }
     public void speakVegetables()
     {
-        mTTS.speak("Vegetables", TextToSpeech.QUEUE_FLUSH, null);
-        mTTS.setSpeechRate(1.5f);
+        mTTS.speak("Learn about Vegetables", TextToSpeech.QUEUE_FLUSH, null);
+        mTTS.setSpeechRate(1.0f);
     }
     public void speakBodyParts()
     {
-        mTTS.speak("Parts Of Body", TextToSpeech.QUEUE_FLUSH, null);
-        mTTS.setSpeechRate(1.5f);
+        mTTS.speak("Learn Parts Of Body", TextToSpeech.QUEUE_FLUSH, null);
+        mTTS.setSpeechRate(1.0f);
     }
     public void speakShapes()
     {
-        mTTS.speak("Shapes", TextToSpeech.QUEUE_FLUSH, null);
-        mTTS.setSpeechRate(1.5f);
+        mTTS.speak("Learn Shapes", TextToSpeech.QUEUE_FLUSH, null);
+        mTTS.setSpeechRate(1.0f);
     }
     public void speakDays()
     {
         mTTS.speak("Days of the weak", TextToSpeech.QUEUE_FLUSH, null);
-        mTTS.setSpeechRate(1.5f);
+        mTTS.setSpeechRate(1.0f);
     }
     public void speakMonths()
     {
@@ -221,12 +221,12 @@ public class Dashboard extends Fragment
     public void speakIslamicMonths()
     {
         mTTS.speak("Islamic Months of the year", TextToSpeech.QUEUE_FLUSH, null);
-        mTTS.setSpeechRate(1.5f);
+        mTTS.setSpeechRate(1.0f);
     }
     public void speakQuiz()
     {
         mTTS.speak("Quiz", TextToSpeech.QUEUE_FLUSH, null);
-        mTTS.setSpeechRate(1.5f);
+        mTTS.setSpeechRate(1.0f);
     }
 
     @Override
